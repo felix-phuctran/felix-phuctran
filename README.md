@@ -1,8 +1,8 @@
 # Hello World!, I'm [TRẦN VĂN PHÚC - Felix Tran] 👋🏼
 
-🛜 currently working on my own [webpage](allyai.ai)
-👨🏼‍🎓 studying [IT] at [University of Science and Technology - The University of Danang]
-👨🏼‍💻 working as a DEVELOPER since [2024]
+🛜 currently working on my own webpage <br>
+👨🏼‍🎓 studying Information Technology (Enterprise-Oriented Special Training Program) at University of Science and Technology - The University of Danang <br>
+👨🏼‍💻 working as a developer since 2024
 
 ## 💻 Tech Stack:
 
@@ -15,7 +15,6 @@
 ![GraphQL](https://img.shields.io/badge/graphql-%23E10098.svg?style=for-the-badge&logo=graphql&logoColor=white)
 ![PowerShell](https://img.shields.io/badge/powershell-%235391FE.svg?style=for-the-badge&logo=powershell&logoColor=white)
 ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-
 ![AWS](https://img.shields.io/badge/aws-%23FF9900.svg?style=for-the-badge&logo=amazon-aws&logoColor=white)
 ![Google Cloud](https://img.shields.io/badge/googlecloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white)
 ![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=white)
@@ -24,7 +23,6 @@
 ![Electron](https://img.shields.io/badge/electron-%234785F4.svg?style=for-the-badge&logo=electron&logoColor=white)
 ![Next.js](https://img.shields.io/badge/next.js-%23000000.svg?style=for-the-badge&logo=next.js&logoColor=white)
 ![Node.js](https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white)
-
 ![Redux](https://img.shields.io/badge/redux-%23593D88.svg?style=for-the-badge&logo=redux&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2361DAFB.svg?style=for-the-badge&logo=react&logoColor=black)
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
@@ -33,14 +31,12 @@
 ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white)
 ![Figma](https://img.shields.io/badge/figma-%23F24E1E.svg?style=for-the-badge&logo=figma&logoColor=white)
 ![Framer](https://img.shields.io/badge/framer-%23005C7B.svg?style=for-the-badge&logo=framer&logoColor=white)
-
 ![Microsoft SQL Server](https://img.shields.io/badge/microsoft%20sql%20server-%23CC2927.svg?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/mongodb-%2347A248.svg?style=for-the-badge&logo=mongodb&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/postgresql-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Firebase](https://img.shields.io/badge/firebase-%23FFCA28.svg?style=for-the-badge&logo=firebase&logoColor=black)
 ![Adobe Audition](https://img.shields.io/badge/adobe%20audition-%23FF0000.svg?style=for-the-badge&logo=adobe-audition&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
-
 ![Notion](https://img.shields.io/badge/notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
 
 ## 📊 GitHub Stats:
