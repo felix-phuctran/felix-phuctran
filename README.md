@@ -45,12 +45,12 @@
 
 ## 📊 GitHub Stats:
 
-![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=phucdut&show_icons=true&theme=dark)
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=phucdut&layout=compact&theme=dark)
+![Your GitHub stats](https://github-readme-stats.vercel.app/api?username=felix-phuctran&show_icons=true&theme=dark)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=felix-phuctran&layout=compact&theme=dark)
 
 ## 🏆 GitHub Trophies:
 
-![trophy](https://github-profile-trophy.vercel.app/?username=phucdut&theme=darkhub)
+![trophy](https://github-profile-trophy.vercel.app/?username=felix-phuctran&theme=darkhub)
 
 ## 📫 How to reach me:
 
