@@ -4,9 +4,9 @@
   </h1>
 </div>
 
-🛜 currently working on my own webpage <br>
-👨🏼‍🎓 studying Information Technology (Enterprise-Oriented Special Training Program) at University of Science and Technology - The University of Danang <br>
-👨🏼‍💻 working as a developer since 2024
+🛜 Currently working on my own webpage <br>
+👨🏼‍🎓 Studying Information Technology (Enterprise-Oriented Special Training Program) at University of Science and Technology - The University of Danang <br>
+👨🏼‍💻 Working as a developer since 2024
 
 ## 💻 Tech Stack:
 
@@ -42,6 +42,9 @@
 ![Adobe Audition](https://img.shields.io/badge/adobe%20audition-%23FF0000.svg?style=for-the-badge&logo=adobe-audition&logoColor=white)
 ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe-photoshop&logoColor=white)
 ![Notion](https://img.shields.io/badge/notion-%23000000.svg?style=for-the-badge&logo=notion&logoColor=white)
+![Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge&logo=laravel&logoColor=white)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white)
+
 
 ## 📊 GitHub Stats:
 
