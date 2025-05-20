@@ -58,5 +58,5 @@
 ## 📫 How to reach me:
 
 - Email: [tranvanphuc.dev.it.2002@gmail.com]
-- Facebook: [@yourfacbooke](https://www.facebook.com/phucx.trans.7)
+- Facebook: [@yourfacebook](https://www.facebook.com/phucx.trans.7)
 - LinkedIn: [linkedin.com/in/yourprofile](https://www.linkedin.com/in/phuc-dut-0082962bb/)
