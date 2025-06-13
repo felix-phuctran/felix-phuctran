@@ -5,7 +5,7 @@
 </div>
 
 🛜 Currently working on my own webpage <br>
-👨🏼‍🎓 Studying Information Technology (Enterprise-Oriented Special Training Program) at University of Science and Technology - The University of Danang <br>
+👨🏼‍🎓 Studied Information Technology (Enterprise-Oriented Special Training Program) at University of Science and Technology - The University of Danang <br>
 👨🏼‍💻 Working as a developer since 2024
 
 ## 💻 Tech Stack:
