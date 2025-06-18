@@ -1,6 +1,6 @@
 <div style="display: inline-flex; align-items: center; gap: 15px;">
   <h1 style="font-size: 24px; margin: 0; color: #62825D;">
-    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=24&color=62825D&center=false&vCenter=true&width=500&height=40&duration=3000&lines=Hello+World!;I'm+TRẦN+VĂN+PHÚC+-+Felix+Tran+👋🏼">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=24&color=62825D&center=false&vCenter=true&width=500&height=40&duration=3000&lines=Hello+World!;I'm+TRAN+VAN+PHUC+-+Felix+Tran+👋🏼">
   </h1>
 </div>
 
