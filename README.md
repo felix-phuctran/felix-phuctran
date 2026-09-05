@@ -6,9 +6,31 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <picture>
-  <source media="(max-width: 600px)" srcset="./assets/hero/hero-01-mobile.webp">
+  <source media="(max-width: 600px)" srcset="./hero-01-mobile.webp">
   <img src="./hero-01.webp" width="100%" alt="Ultra-cinematic 3D render of a mysterious elite hacker at a high-tech workstation with curved holographic displays, emerald code streams, and 3D architectural models" />
 </picture>
+
+<br/>
+<br/>
+
+<img
+  width="100%"
+  src="https://capsule-render.vercel.app/api?type=waving
+  &color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d
+  &height=280
+  &section=header
+  &text=TRAN%20VAN%20PHUC
+  &fontSize=64
+  &fontColor=ffffff
+  &fontAlignY=38
+  &fontAlign=50
+  &desc=Full-Stack%20Web%20Developer%20%7C%20AI%20%26%20Backend%20Engineer
+  &descAlignY=58
+  &descSize=16
+  &descFontColor=00f3ff
+  &stroke=00f3ff
+  &strokeWidth=1"
+/>
 
 <br/>
 <br/>
@@ -37,12 +59,12 @@
 </p> -->
 
 <!-- ================= 5. 3D LANYARD & PRODUCTION STATS ================= -->
-<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<table border="0" width="100%" >
   <tr>
-    <td width="50%" align="center" valign="middle">
+    <td width="40%" align="center" valign="middle">
       <img src="./lanyard.svg?v=1" alt="Staff Architect ID Badge" width="100%">
     </td>
-    <td width="50%" align="center" valign="middle">
+    <td width="60%" align="center" valign="middle">
       <img src="./identity-card.svg?v=1" alt="Production Telemetry & Radar" width="100%">
     </td>
   </tr>
@@ -55,7 +77,7 @@
 
 <!-- ================= 7. GITHUB CONTRIBUTION SNAKE ================= -->
 <p align="center">
-  <img src="" alt="GitHub Contribution Snake" width="100%">
+  <img src="https://raw.githubusercontent.com/felix-phuctran/felix-phuctran/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%">
 </p>
 
 ---
@@ -164,7 +186,7 @@
       <!-- <a href="https://github.com/felix-phuctran/Expense-Tracker" target="_blank">
         <img src="https://raw.githubusercontent.com/felix-phuctran/Hxni-Ecommerce-Store/main/profile_docs/assets/hxni_finance_mockup.png" width="100%" style="border-radius: 10px;" />
       </a> -->
-      <img src="./ai-sales-network" width="100%" style="border-radius: 10px;" />
+      <img src="./ai-sales-network.svg" width="100%" style="border-radius: 10px;" />
       <br/><br/>
       <b>🤖 Multi-Platform AI Sales Network</b><br/>
       <sub>An AI-powered sales platform for creating intelligent agents, managing customer
@@ -236,7 +258,11 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=felix-phuctran&theme=tokyonight&hide_border=true&background=040711&stroke=00f3ff&ring=00ff9d&fire=00ff9d&currStreakNum=00f3ff" alt="GitHub Streak" width="49%" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felix-phuctran&layout=compact&theme=tokyonight&hide_border=true&bg_color=040711&text_color=94a3b8&title_color=00ff9d" alt="Top Languages" width="48%" />
+  <img 
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=felix-phuctran&layout=compact&theme=tokyonight&hide_border=true&bg_color=040711&text_color=94a3b8&title_color=00ff9d" 
+  alt="Top Languages" 
+  width="48%" 
+/>
 </p>
 
 ### 🏆 Verified GitHub Achievements
