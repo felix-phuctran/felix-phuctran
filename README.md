@@ -11,9 +11,6 @@
   alt="TRAN VAN PHUC"
 />
 
-<br/>
-<br/>
-
 <picture>
   <source media="(max-width: 600px)" srcset="./hero-01-mobile.webp">
   <img src="./hero-01.webp" width="100%" alt="Ultra-cinematic 3D render of a mysterious elite hacker at a high-tech workstation with curved holographic displays, emerald code streams, and 3D architectural models" />
