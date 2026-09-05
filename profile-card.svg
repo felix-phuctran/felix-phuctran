@@ -1,0 +1,1337 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="1536"
+     height="1024"
+     viewBox="0 0 1536 1024">
+
+  <defs>
+
+    <!-- ================= BACKGROUND ================= -->
+
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#02050c"/>
+      <stop offset="50%" stop-color="#050914"/>
+      <stop offset="100%" stop-color="#02030a"/>
+    </linearGradient>
+
+    <radialGradient id="centerGlow">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity=".18"/>
+      <stop offset="45%" stop-color="#00f3ff" stop-opacity=".06"/>
+      <stop offset="100%" stop-color="#00f3ff" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="cyanPurple" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f3ff"/>
+      <stop offset="50%" stop-color="#00ffcc"/>
+      <stop offset="100%" stop-color="#a855f7"/>
+    </linearGradient>
+
+    <linearGradient id="nameGradient" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00f3ff"/>
+      <stop offset="50%" stop-color="#00ffcc"/>
+      <stop offset="100%" stop-color="#b44cff"/>
+    </linearGradient>
+
+    <filter id="glowCyan"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+
+    <filter id="glowPurple"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+
+    <filter id="softGlow"
+            x="-100%"
+            y="-100%"
+            width="300%"
+            height="300%">
+      <feGaussianBlur stdDeviation="4"/>
+    </filter>
+
+    <!-- ================= GRID ================= -->
+
+    <pattern id="grid"
+             width="55"
+             height="55"
+             patternUnits="userSpaceOnUse">
+
+      <path d="M55 0H0V55"
+            fill="none"
+            stroke="#00d9ff"
+            stroke-width=".5"
+            opacity=".12"/>
+
+    </pattern>
+
+    <!-- ================= AVATAR ================= -->
+
+    <clipPath id="avatarClip">
+      <ellipse cx="768"
+               cy="455"
+               rx="235"
+               ry="310"/>
+    </clipPath>
+
+    <!-- ================= CIRCLE MASK ================= -->
+
+    <clipPath id="qrClip">
+      <rect x="180"
+            y="794"
+            width="150"
+            height="150"
+            rx="4"/>
+    </clipPath>
+
+  </defs>
+
+
+  <!-- ====================================================== -->
+  <!-- BACKGROUND -->
+  <!-- ====================================================== -->
+
+  <rect width="1536"
+        height="1024"
+        fill="url(#bg)"/>
+
+  <rect width="1536"
+        height="1024"
+        fill="url(#grid)"/>
+
+  <ellipse cx="768"
+           cy="500"
+           rx="600"
+           ry="500"
+           fill="url(#centerGlow)"/>
+
+
+  <!-- ====================================================== -->
+  <!-- OUTER CYBERPUNK FRAME -->
+  <!-- ====================================================== -->
+
+  <path d="
+    M40 20
+    H276
+    L286 30
+    H500
+    L510 20
+    H982
+    L992 30
+    H1495
+    L1515 50
+    V150
+    L1505 160
+    V820
+    L1515 830
+    V970
+    L1495 990
+    H1160
+    L1148 980
+    H390
+    L378 990
+    H40
+    L20 970
+    V50
+    Z"
+    fill="none"
+    stroke="url(#cyanPurple)"
+    stroke-width="1.2"/>
+
+  <!-- inner frame -->
+
+  <path d="
+    M54 45
+    H270
+    M505 45
+    H985
+    M1000 45
+    H1480
+
+    M54 980
+    H375
+    M395 980
+    H1140
+    M1165 980
+    H1480"
+    fill="none"
+    stroke="#17334b"
+    stroke-width="1"/>
+
+
+  <!-- ====================================================== -->
+  <!-- TOP LEFT LOGO -->
+  <!-- ====================================================== -->
+
+  <text x="57"
+        y="86"
+        font-family="monospace"
+        font-size="48"
+        font-weight="bold"
+        fill="none"
+        stroke="#00f3ff"
+        stroke-width="1.5"
+        letter-spacing="-5">
+    TP
+  </text>
+
+  <path d="M59 95H110"
+        stroke="#00ffcc"
+        stroke-width="2"/>
+
+
+  <!-- ====================================================== -->
+  <!-- LINKEDIN -->
+  <!-- ====================================================== -->
+
+  <rect x="545"
+        y="40"
+        width="19"
+        height="19"
+        rx="4"
+        fill="none"
+        stroke="#00f3ff"
+        stroke-width="2"/>
+
+  <path d="M550 54L559 45M555 45H560V50"
+        fill="none"
+        stroke="#00ffcc"
+        stroke-width="1.5"/>
+
+  <text x="578"
+        y="60"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="600"
+        fill="#f1f5f9">
+    linkedin.com/in/felix-tran-0082962bb
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- NAVIGATION -->
+  <!-- ====================================================== -->
+
+  <text x="1050"
+        y="62"
+        font-family="Arial, sans-serif"
+        font-size="21"
+        font-weight="700"
+        fill="#f8fafc">
+    ABOUT
+  </text>
+
+  <text x="1205"
+        y="62"
+        font-family="Arial, sans-serif"
+        font-size="21"
+        font-weight="700"
+        fill="#f8fafc">
+    WORK
+  </text>
+
+  <text x="1348"
+        y="62"
+        font-family="Arial, sans-serif"
+        font-size="21"
+        font-weight="700"
+        fill="#f8fafc">
+    CONTACT
+  </text>
+
+  <line x1="1018"
+        y1="84"
+        x2="1475"
+        y2="84"
+        stroke="#102338"
+        stroke-width="2"/>
+
+  <line x1="1050"
+        y1="84"
+        x2="1125"
+        y2="84"
+        stroke="#00f3ff"
+        stroke-width="3"
+        filter="url(#softGlow)"/>
+
+
+  <!-- ====================================================== -->
+  <!-- LEFT DECORATIVE CIRCUIT -->
+  <!-- ====================================================== -->
+
+  <path d="
+    M58 128
+    H152
+    L166 115
+    H420
+
+    M59 130
+    H152
+    L166 117
+    H420"
+    fill="none"
+    stroke="#07566b"
+    stroke-width="1"/>
+
+  <circle cx="59"
+          cy="128"
+          r="3"
+          fill="#00f3ff"/>
+
+  <circle cx="420"
+          cy="115"
+          r="3"
+          fill="#00ffcc"/>
+
+
+  <!-- ====================================================== -->
+  <!-- LEFT INTRO -->
+  <!-- ====================================================== -->
+
+  <text x="108"
+        y="203"
+        font-family="monospace"
+        font-size="21"
+        letter-spacing="1"
+        fill="#00ffcc">
+    &gt; Hello! I'm
+  </text>
+
+
+  <text x="108"
+        y="273"
+        font-family="Arial, sans-serif"
+        font-size="67"
+        font-weight="800"
+        letter-spacing="3"
+        fill="#f8fafc">
+    TRAN
+  </text>
+
+  <text x="108"
+        y="339"
+        font-family="Arial, sans-serif"
+        font-size="67"
+        font-weight="800"
+        letter-spacing="3"
+        fill="#00d9ff">
+    VAN
+  </text>
+
+  <text x="108"
+        y="405"
+        font-family="Arial, sans-serif"
+        font-size="67"
+        font-weight="800"
+        letter-spacing="3"
+        fill="url(#nameGradient)">
+    PHUC
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- LEFT ROLE BOX -->
+  <!-- ====================================================== -->
+
+  <path d="
+    M108 438
+    H378
+    L393 453
+    V518
+    L378 533
+    H108
+    V438
+    Z"
+    fill="#020812"
+    fill-opacity=".72"
+    stroke="#00f3ff"
+    stroke-width="1.3"/>
+
+  <path d="
+    M108 438V458
+    M108 438H128
+    M378 533H358
+    M393 453H373"
+    stroke="#00ffcc"
+    stroke-width="2"/>
+
+  <text x="132"
+        y="472"
+        font-family="monospace"
+        font-size="23"
+        font-weight="600"
+        letter-spacing="2"
+        fill="#00ffcc">
+    FULL STACK
+  </text>
+
+  <text x="132"
+        y="505"
+        font-family="Arial, sans-serif"
+        font-size="22"
+        font-weight="600"
+        letter-spacing="1"
+        fill="#e2e8f0">
+    WEB DEVELOPER
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- VIETNAM -->
+  <!-- ====================================================== -->
+
+  <circle cx="125"
+          cy="555"
+          r="12"
+          fill="#00f3ff"
+          opacity=".95"/>
+
+  <circle cx="125"
+          cy="551"
+          r="4"
+          fill="#07111d"/>
+
+  <path d="M117 557L125 571L133 557"
+        fill="#00f3ff"/>
+
+  <text x="151"
+        y="562"
+        font-family="monospace"
+        font-size="18"
+        letter-spacing="3"
+        fill="#cbd5e1">
+    VIETNAM
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- CENTER AVATAR GLOW -->
+  <!-- ====================================================== -->
+
+  <ellipse cx="768"
+           cy="500"
+           rx="280"
+           ry="360"
+           fill="#00f3ff"
+           opacity=".08"
+           filter="url(#glowCyan)"/>
+
+  <ellipse cx="800"
+           cy="500"
+           rx="240"
+           ry="340"
+           fill="#a855f7"
+           opacity=".06"
+           filter="url(#glowPurple)"/>
+
+
+  <!-- ====================================================== -->
+  <!-- CENTER HUD CIRCLES -->
+  <!-- ====================================================== -->
+
+  <circle cx="768"
+          cy="455"
+          r="350"
+          fill="none"
+          stroke="#063b4d"
+          stroke-width="1"/>
+
+  <circle cx="768"
+          cy="455"
+          r="325"
+          fill="none"
+          stroke="#0b2a40"
+          stroke-width="1"
+          stroke-dasharray="2 12"/>
+
+  <circle cx="768"
+          cy="455"
+          r="295"
+          fill="none"
+          stroke="#00f3ff"
+          stroke-width=".8"
+          opacity=".5"/>
+
+  <circle cx="768"
+          cy="455"
+          r="265"
+          fill="none"
+          stroke="#a855f7"
+          stroke-width=".8"
+          stroke-dasharray="4 8"
+          opacity=".5"/>
+
+  <circle cx="768"
+          cy="455"
+          r="230"
+          fill="none"
+          stroke="#00ffcc"
+          stroke-width="1"
+          opacity=".4"/>
+
+
+  <!-- HUD markers -->
+
+  <circle cx="468" cy="455" r="4" fill="#00f3ff"/>
+  <circle cx="1068" cy="455" r="4" fill="#a855f7"/>
+  <circle cx="768" cy="155" r="4" fill="#00ffcc"/>
+  <circle cx="768" cy="755" r="4" fill="#a855f7"/>
+
+
+  <!-- ====================================================== -->
+  <!-- AVATAR -->
+  <!-- ====================================================== -->
+
+  <image
+      href="./avatar.png"
+      x="533"
+      y="145"
+      width="470"
+      height="620"
+      preserveAspectRatio="xMidYMid slice"
+      clip-path="url(#avatarClip)"
+  />
+
+
+  <!-- avatar outline -->
+
+  <ellipse cx="768"
+           cy="455"
+           rx="235"
+           ry="310"
+           fill="none"
+           stroke="url(#cyanPurple)"
+           stroke-width="2"/>
+
+
+  <!-- ====================================================== -->
+  <!-- RIGHT TITLE -->
+  <!-- ====================================================== -->
+
+  <text x="1090"
+        y="254"
+        font-family="monospace"
+        font-size="23"
+        letter-spacing="2"
+        fill="#00ffcc">
+    Full Stack
+  </text>
+
+  <path d="
+    M1082 269
+    H1437
+    L1452 284
+    V407
+    L1437 422
+    H1082"
+    fill="none"
+    stroke="#06485a"
+    stroke-width="1"/>
+
+  <path d="M1082 269H1102V289"
+        fill="none"
+        stroke="#00f3ff"
+        stroke-width="2"/>
+
+  <text x="1105"
+        y="325"
+        font-family="Arial, sans-serif"
+        font-size="63"
+        font-weight="700"
+        fill="url(#cyanPurple)">
+    APP DEV
+  </text>
+
+  <text x="1110"
+        y="395"
+        font-family="Arial, sans-serif"
+        font-size="63"
+        font-weight="700"
+        fill="#9d4edd">
+    WEB DEV
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- TECH STACK BOX -->
+  <!-- ====================================================== -->
+
+  <path d="
+    M1065 470
+    L1080 455
+    H1458
+    L1474 471
+    V731
+    L1458 747
+    H1080
+    L1065 732
+    Z"
+    fill="#020812"
+    fill-opacity=".75"
+    stroke="#00f3ff"
+    stroke-width="1.4"/>
+
+  <text x="1269"
+        y="505"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="20"
+        font-weight="700"
+        letter-spacing="2"
+        fill="#00ffcc">
+    TECH STACK
+  </text>
+
+  <line x1="1100"
+        y1="523"
+        x2="1438"
+        y2="523"
+        stroke="#12394b"/>
+
+
+  <!-- React -->
+
+  <g transform="translate(1120 555)">
+    <circle cx="28" cy="28" r="10"
+            fill="none"
+            stroke="#00e5ff"
+            stroke-width="2"/>
+
+    <ellipse cx="28" cy="28"
+             rx="37" ry="14"
+             fill="none"
+             stroke="#00e5ff"
+             stroke-width="2"/>
+
+    <ellipse cx="28" cy="28"
+             rx="37" ry="14"
+             fill="none"
+             stroke="#00e5ff"
+             stroke-width="2"
+             transform="rotate(60 28 28)"/>
+
+    <ellipse cx="28" cy="28"
+             rx="37" ry="14"
+             fill="none"
+             stroke="#00e5ff"
+             stroke-width="2"
+             transform="rotate(120 28 28)"/>
+
+    <text x="28"
+          y="75"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="15"
+          fill="#e2e8f0">
+      React
+    </text>
+  </g>
+
+
+  <!-- Next -->
+
+  <g transform="translate(1218 555)">
+    <circle cx="28"
+            cy="28"
+            r="28"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="1.5"/>
+
+    <text x="28"
+          y="38"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="25"
+          fill="#ffffff">
+      N
+    </text>
+
+    <text x="28"
+          y="75"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="15"
+          fill="#e2e8f0">
+      Next.js
+    </text>
+  </g>
+
+
+  <!-- TypeScript -->
+
+  <g transform="translate(1314 555)">
+    <rect x="4"
+          y="4"
+          width="52"
+          height="52"
+          rx="4"
+          fill="#3178c6"/>
+
+    <text x="30"
+          y="41"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="25"
+          font-weight="700"
+          fill="#ffffff">
+      TS
+    </text>
+
+    <text x="30"
+          y="75"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          fill="#e2e8f0">
+      TypeScript
+    </text>
+  </g>
+
+
+  <!-- Node -->
+
+  <g transform="translate(1405 555)">
+    <polygon points="30,0 56,15 56,45 30,60 4,45 4,15"
+             fill="none"
+             stroke="#7ed321"
+             stroke-width="4"/>
+
+    <text x="30"
+          y="39"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="20"
+          font-weight="700"
+          fill="#7ed321">
+      JS
+    </text>
+
+    <text x="30"
+          y="75"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          fill="#e2e8f0">
+      Node.js
+    </text>
+  </g>
+
+
+  <!-- Tailwind -->
+
+  <g transform="translate(1118 650)">
+    <text x="30"
+          y="35"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="45"
+          font-weight="700"
+          fill="#38bdf8">
+      ≋
+    </text>
+
+    <text x="30"
+          y="68"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          fill="#e2e8f0">
+      TailwindCSS
+    </text>
+  </g>
+
+
+  <!-- PostgreSQL -->
+
+  <g transform="translate(1218 650)">
+    <ellipse cx="30"
+             cy="27"
+             rx="25"
+             ry="30"
+             fill="none"
+             stroke="#9cc7df"
+             stroke-width="3"/>
+
+    <text x="30"
+          y="34"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="22"
+          fill="#9cc7df">
+      PG
+    </text>
+
+    <text x="30"
+          y="68"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          fill="#e2e8f0">
+      PostgreSQL
+    </text>
+  </g>
+
+
+  <!-- MongoDB -->
+
+  <g transform="translate(1314 650)">
+    <path d="
+      M30 0
+      C12 18 9 31 18 48
+      C22 55 27 57 30 60
+      C33 57 38 55 42 48
+      C51 31 48 18 30 0Z"
+      fill="#55b832"/>
+
+    <text x="30"
+          y="68"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          fill="#e2e8f0">
+      MongoDB
+    </text>
+  </g>
+
+
+  <!-- Docker -->
+
+  <g transform="translate(1405 650)">
+    <path d="
+      M4 35
+      H56
+      C53 48 43 54 28 54
+      C15 54 7 47 4 35Z"
+      fill="#2496ed"/>
+
+    <rect x="10" y="20"
+          width="9" height="9"
+          fill="#2496ed"/>
+
+    <rect x="22" y="20"
+          width="9" height="9"
+          fill="#2496ed"/>
+
+    <rect x="34" y="20"
+          width="9" height="9"
+          fill="#2496ed"/>
+
+    <text x="30"
+          y="68"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="14"
+          fill="#e2e8f0">
+      Docker
+    </text>
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- SOCIAL BUTTONS -->
+  <!-- ====================================================== -->
+
+  <g>
+
+    <!-- Github -->
+
+    <path d="
+      M58 618
+      L72 604
+      H105
+      L120 619
+      V670
+      L105 685
+      H72
+      L58 670
+      Z"
+      fill="#020812"
+      stroke="#00f3ff"
+      stroke-width="1.5"/>
+
+    <text x="89"
+          y="658"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="27"
+          font-weight="bold"
+          fill="#ffffff">
+      GH
+    </text>
+
+
+    <!-- LinkedIn -->
+
+    <path d="
+      M58 694
+      L72 680
+      H105
+      L120 695
+      V746
+      L105 761
+      H72
+      L58 746
+      Z"
+      fill="#020812"
+      stroke="#00f3ff"
+      stroke-width="1.5"/>
+
+    <text x="89"
+          y="735"
+          text-anchor="middle"
+          font-family="Arial"
+          font-size="28"
+          font-weight="bold"
+          fill="#ffffff">
+      in
+    </text>
+
+
+    <!-- Instagram -->
+
+    <path d="
+      M58 770
+      L72 756
+      H105
+      L120 771
+      V822
+      L105 837
+      H72
+      L58 822
+      Z"
+      fill="#020812"
+      stroke="#a855f7"
+      stroke-width="1.5"/>
+
+    <rect x="74"
+          y="780"
+          width="30"
+          height="30"
+          rx="8"
+          fill="none"
+          stroke="#ffffff"
+          stroke-width="3"/>
+
+    <circle cx="89"
+            cy="795"
+            r="7"
+            fill="none"
+            stroke="#ffffff"
+            stroke-width="2"/>
+
+    <circle cx="99"
+            cy="785"
+            r="2.5"
+            fill="#ffffff"/>
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- QR CODE PANEL -->
+  <!-- ====================================================== -->
+
+  <path d="
+    M145 775
+    L158 762
+    H378
+    L395 779
+    V963
+    L378 980
+    H158
+    L145 967
+    Z"
+    fill="#020812"
+    stroke="url(#cyanPurple)"
+    stroke-width="1.5"/>
+
+
+  <!-- Fake QR / decorative QR -->
+
+  <g transform="translate(177 790)">
+
+    <rect width="156"
+          height="156"
+          fill="#ffffff"/>
+
+    <!-- QR corner blocks -->
+
+    <rect x="7" y="7"
+          width="43"
+          height="43"
+          fill="#05070c"/>
+
+    <rect x="14" y="14"
+          width="29"
+          height="29"
+          fill="#ffffff"/>
+
+    <rect x="21" y="21"
+          width="15"
+          height="15"
+          fill="#05070c"/>
+
+
+    <rect x="106" y="7"
+          width="43"
+          height="43"
+          fill="#05070c"/>
+
+    <rect x="113" y="14"
+          width="29"
+          height="29"
+          fill="#ffffff"/>
+
+    <rect x="120" y="21"
+          width="15"
+          height="15"
+          fill="#05070c"/>
+
+
+    <rect x="7" y="106"
+          width="43"
+          height="43"
+          fill="#05070c"/>
+
+    <rect x="14" y="113"
+          width="29"
+          height="29"
+          fill="#ffffff"/>
+
+    <rect x="21" y="120"
+          width="15"
+          height="15"
+          fill="#05070c"/>
+
+
+    <!-- QR data -->
+
+    <g fill="#05070c">
+
+      <rect x="58" y="8" width="7" height="7"/>
+      <rect x="72" y="8" width="7" height="7"/>
+      <rect x="86" y="8" width="7" height="7"/>
+
+      <rect x="58" y="22" width="7" height="7"/>
+      <rect x="79" y="22" width="7" height="7"/>
+      <rect x="93" y="22" width="7" height="7"/>
+
+      <rect x="58" y="36" width="7" height="7"/>
+      <rect x="72" y="36" width="7" height="7"/>
+      <rect x="86" y="36" width="7" height="7"/>
+
+      <rect x="58" y="58" width="7" height="7"/>
+      <rect x="72" y="58" width="7" height="7"/>
+      <rect x="93" y="58" width="7" height="7"/>
+      <rect x="107" y="58" width="7" height="7"/>
+      <rect x="128" y="58" width="7" height="7"/>
+
+      <rect x="65" y="72" width="7" height="7"/>
+      <rect x="79" y="72" width="7" height="7"/>
+      <rect x="100" y="72" width="7" height="7"/>
+      <rect x="121" y="72" width="7" height="7"/>
+
+      <rect x="58" y="86" width="7" height="7"/>
+      <rect x="86" y="86" width="7" height="7"/>
+      <rect x="107" y="86" width="7" height="7"/>
+      <rect x="135" y="86" width="7" height="7"/>
+
+      <rect x="58" y="100" width="7" height="7"/>
+      <rect x="72" y="100" width="7" height="7"/>
+      <rect x="93" y="100" width="7" height="7"/>
+      <rect x="114" y="100" width="7" height="7"/>
+
+      <rect x="58" y="114" width="7" height="7"/>
+      <rect x="79" y="114" width="7" height="7"/>
+      <rect x="100" y="114" width="7" height="7"/>
+      <rect x="128" y="114" width="7" height="7"/>
+
+      <rect x="58" y="128" width="7" height="7"/>
+      <rect x="72" y="128" width="7" height="7"/>
+      <rect x="86" y="128" width="7" height="7"/>
+      <rect x="107" y="128" width="7" height="7"/>
+      <rect x="135" y="128" width="7" height="7"/>
+
+    </g>
+
+  </g>
+
+
+  <text x="255"
+        y="954"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="14"
+        font-weight="600"
+        fill="#00ffcc">
+    CODE. BUILD. SOLVE. REPEAT.
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- BARCODE PANEL -->
+  <!-- ====================================================== -->
+
+  <path d="
+    M368 785
+    L382 771
+    H1130
+    L1148 789
+    V934
+    L1130 952
+    H382
+    L368 938
+    Z"
+    fill="#020812"
+    fill-opacity=".9"
+    stroke="#0a5365"
+    stroke-width="1.2"/>
+
+
+  <!-- Barcode -->
+
+  <g transform="translate(415 805)">
+
+    <rect x="0" width="7" height="70" fill="#00f3ff"/>
+    <rect x="14" width="4" height="70" fill="#ffffff"/>
+    <rect x="26" width="8" height="70" fill="#00ffcc"/>
+    <rect x="40" width="5" height="70" fill="#ffffff"/>
+    <rect x="53" width="9" height="70" fill="#a855f7"/>
+    <rect x="67" width="4" height="70" fill="#ffffff"/>
+    <rect x="80" width="7" height="70" fill="#00f3ff"/>
+    <rect x="94" width="5" height="70" fill="#ffffff"/>
+    <rect x="107" width="9" height="70" fill="#00ffcc"/>
+    <rect x="122" width="4" height="70" fill="#ffffff"/>
+    <rect x="135" width="8" height="70" fill="#a855f7"/>
+    <rect x="149" width="5" height="70" fill="#ffffff"/>
+    <rect x="163" width="9" height="70" fill="#00f3ff"/>
+    <rect x="178" width="4" height="70" fill="#ffffff"/>
+    <rect x="191" width="7" height="70" fill="#00ffcc"/>
+    <rect x="205" width="5" height="70" fill="#ffffff"/>
+    <rect x="218" width="9" height="70" fill="#a855f7"/>
+    <rect x="233" width="4" height="70" fill="#ffffff"/>
+    <rect x="246" width="7" height="70" fill="#00f3ff"/>
+    <rect x="260" width="5" height="70" fill="#ffffff"/>
+    <rect x="273" width="9" height="70" fill="#00ffcc"/>
+    <rect x="288" width="4" height="70" fill="#ffffff"/>
+    <rect x="301" width="8" height="70" fill="#a855f7"/>
+    <rect x="315" width="5" height="70" fill="#ffffff"/>
+    <rect x="329" width="8" height="70" fill="#00f3ff"/>
+    <rect x="343" width="4" height="70" fill="#ffffff"/>
+    <rect x="356" width="9" height="70" fill="#00ffcc"/>
+    <rect x="371" width="5" height="70" fill="#ffffff"/>
+    <rect x="384" width="8" height="70" fill="#a855f7"/>
+    <rect x="398" width="4" height="70" fill="#ffffff"/>
+    <rect x="411" width="9" height="70" fill="#00f3ff"/>
+    <rect x="426" width="5" height="70" fill="#ffffff"/>
+    <rect x="439" width="7" height="70" fill="#00ffcc"/>
+    <rect x="453" width="4" height="70" fill="#ffffff"/>
+    <rect x="466" width="9" height="70" fill="#a855f7"/>
+    <rect x="481" width="5" height="70" fill="#ffffff"/>
+    <rect x="495" width="8" height="70" fill="#00f3ff"/>
+    <rect x="509" width="4" height="70" fill="#ffffff"/>
+    <rect x="522" width="9" height="70" fill="#00ffcc"/>
+    <rect x="537" width="5" height="70" fill="#ffffff"/>
+    <rect x="550" width="8" height="70" fill="#a855f7"/>
+    <rect x="564" width="4" height="70" fill="#ffffff"/>
+    <rect x="577" width="9" height="70" fill="#00f3ff"/>
+    <rect x="592" width="5" height="70" fill="#ffffff"/>
+    <rect x="605" width="8" height="70" fill="#00ffcc"/>
+    <rect x="619" width="4" height="70" fill="#ffffff"/>
+    <rect x="632" width="9" height="70" fill="#a855f7"/>
+    <rect x="647" width="5" height="70" fill="#ffffff"/>
+    <rect x="660" width="8" height="70" fill="#00f3ff"/>
+
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- BINARY -->
+  <!-- ====================================================== -->
+
+  <text x="430"
+        y="902"
+        font-family="monospace"
+        font-size="15"
+        letter-spacing="2"
+        fill="#e2e8f0">
+    01010100 01010010 01000001 01001110
+  </text>
+
+  <text x="430"
+        y="925"
+        font-family="monospace"
+        font-size="15"
+        letter-spacing="2"
+        fill="#e2e8f0">
+    01010110 01000001 01001110 00100000
+    01010000 01001000 01010101 01000011
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- RIGHT BOTTOM STATUS -->
+  <!-- ====================================================== -->
+
+  <path d="
+    M1150 770
+    L1165 755
+    H1370
+    L1385 770
+    V956
+    L1370 971
+    H1165
+    L1150 956
+    Z"
+    fill="#020812"
+    stroke="url(#cyanPurple)"
+    stroke-width="1.2"/>
+
+
+  <text x="1268"
+        y="824"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="18"
+        letter-spacing="2"
+        fill="#00ffcc">
+    ALWAYS LEARNING
+  </text>
+
+  <text x="1268"
+        y="865"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="17"
+        letter-spacing="1"
+        fill="#a855f7">
+    BUILDING THE FUTURE
+  </text>
+
+  <line x1="1185"
+        y1="888"
+        x2="1350"
+        y2="888"
+        stroke="#25344b"/>
+
+
+  <!-- status bars -->
+
+  <g transform="translate(1185 910)">
+    <rect x="0" width="15" height="5"
+          transform="skewX(-25)"
+          fill="#00f3ff"/>
+
+    <rect x="25" width="15" height="5"
+          transform="skewX(-25)"
+          fill="#00d9ff"/>
+
+    <rect x="50" width="15" height="5"
+          transform="skewX(-25)"
+          fill="#00ffcc"/>
+
+    <rect x="75" width="15" height="5"
+          transform="skewX(-25)"
+          fill="#8b5cf6"/>
+
+    <rect x="100" width="15" height="5"
+          transform="skewX(-25)"
+          fill="#7c3aed"/>
+
+    <rect x="125" width="15" height="5"
+          transform="skewX(-25)"
+          fill="#4c1d95"/>
+  </g>
+
+
+  <!-- ====================================================== -->
+  <!-- FINAL NAME -->
+  <!-- ====================================================== -->
+
+  <text x="768"
+        y="970"
+        text-anchor="middle"
+        font-family="monospace"
+        font-size="26"
+        font-weight="700"
+        letter-spacing="12"
+        fill="url(#nameGradient)">
+    TRAN VAN PHUC
+  </text>
+
+
+  <!-- ====================================================== -->
+  <!-- SMALL CYBER DECORATIONS -->
+  <!-- ====================================================== -->
+
+  <g fill="#00f3ff">
+
+    <circle cx="383" cy="58" r="4"/>
+    <circle cx="400" cy="58" r="4"/>
+    <circle cx="417" cy="58" r="4"/>
+    <circle cx="434" cy="58" r="4"/>
+
+    <circle cx="922" cy="130" r="3"/>
+    <circle cx="938" cy="130" r="3"/>
+    <circle cx="954" cy="130" r="3"/>
+
+  </g>
+
+  <g fill="#a855f7">
+
+    <circle cx="1338" cy="117" r="3"/>
+    <circle cx="1380" cy="117" r="3"/>
+    <circle cx="1422" cy="117" r="3"/>
+
+    <circle cx="1458" cy="915" r="4"/>
+    <circle cx="1458" cy="935" r="3"/>
+    <circle cx="1458" cy="955" r="2"/>
+
+  </g>
+
+
+  <!-- left vertical cyan accent -->
+
+  <path d="
+    M31 174
+    V315
+    L37 321
+    V472"
+    fill="none"
+    stroke="#00f3ff"
+    stroke-width="5"
+    opacity=".8"/>
+
+  <path d="
+    M31 474
+    V650"
+    fill="none"
+    stroke="#00f3ff"
+    stroke-width="1"
+    stroke-dasharray="5 10"/>
+
+
+  <!-- right purple accent -->
+
+  <path d="
+    M1505 160
+    V300
+    L1499 306
+    V470"
+    fill="none"
+    stroke="#a855f7"
+    stroke-width="2"/>
+
+
+  <!-- ====================================================== -->
+  <!-- END -->
+  <!-- ====================================================== -->
+
+</svg>

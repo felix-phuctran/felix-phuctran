@@ -1,0 +1,1618 @@
+<svg
+  width="1024"
+  height="1024"
+  viewBox="0 0 1024 1024"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+<defs>
+
+  <!-- Background -->
+  <linearGradient id="bg" x1="0" y1="0" x2="1024" y2="1024">
+    <stop offset="0%" stop-color="#07111E"/>
+    <stop offset="45%" stop-color="#111D2C"/>
+    <stop offset="100%" stop-color="#05090F"/>
+  </linearGradient>
+
+  <radialGradient id="blueGlow">
+    <stop offset="0%" stop-color="#2879E8" stop-opacity=".28"/>
+    <stop offset="100%" stop-color="#2879E8" stop-opacity="0"/>
+  </radialGradient>
+
+  <linearGradient id="screenBg" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#11161C"/>
+    <stop offset="100%" stop-color="#0B1015"/>
+  </linearGradient>
+
+  <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#29333E"/>
+    <stop offset="100%" stop-color="#151B22"/>
+  </linearGradient>
+
+  <linearGradient id="logoBlue" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#4DA3FF"/>
+    <stop offset="50%" stop-color="#2365C5"/>
+    <stop offset="100%" stop-color="#132C69"/>
+  </linearGradient>
+
+  <linearGradient id="graph" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0%" stop-color="#3B8FEF"/>
+    <stop offset="100%" stop-color="#5BA8FF"/>
+  </linearGradient>
+
+  <linearGradient id="graphFill" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#4C9BF8" stop-opacity=".38"/>
+    <stop offset="100%" stop-color="#4C9BF8" stop-opacity="0"/>
+  </linearGradient>
+
+  <filter id="glow">
+    <feGaussianBlur stdDeviation="5" result="blur"/>
+    <feMerge>
+      <feMergeNode in="blur"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+
+  <filter id="softShadow">
+    <feDropShadow
+      dx="0"
+      dy="25"
+      stdDeviation="25"
+      flood-color="#000"
+      flood-opacity=".7"
+    />
+  </filter>
+
+  <filter id="blueShadow">
+    <feDropShadow
+      dx="0"
+      dy="0"
+      stdDeviation="6"
+      flood-color="#2785FF"
+      flood-opacity=".55"
+    />
+  </filter>
+
+  <!-- Screen clipping -->
+  <clipPath id="monitorScreen">
+    <rect
+      x="132"
+      y="180"
+      width="760"
+      height="530"
+      rx="10"
+    />
+  </clipPath>
+
+</defs>
+
+
+<!-- ========================================================= -->
+<!-- BACKGROUND -->
+<!-- ========================================================= -->
+
+<rect width="1024" height="1024" fill="url(#bg)"/>
+
+<ellipse
+  cx="510"
+  cy="420"
+  rx="530"
+  ry="430"
+  fill="url(#blueGlow)"
+/>
+
+<!-- Background windows -->
+<g opacity=".25">
+
+  <rect x="0" y="0" width="270" height="700" fill="#091625"/>
+  <rect x="285" y="0" width="10" height="700" fill="#02070D"/>
+  <rect x="720" y="0" width="15" height="700" fill="#02070D"/>
+  <rect x="960" y="0" width="64" height="700" fill="#07101B"/>
+
+  <g fill="#54789D" opacity=".25">
+    <rect x="20" y="400" width="25" height="45"/>
+    <rect x="65" y="350" width="30" height="95"/>
+    <rect x="120" y="390" width="20" height="55"/>
+    <rect x="160" y="320" width="40" height="125"/>
+    <rect x="215" y="370" width="25" height="75"/>
+  </g>
+
+</g>
+
+
+<!-- ========================================================= -->
+<!--  LOGO -->
+<!-- ========================================================= -->
+
+<g transform="translate(330 55)">
+
+  <!-- abstract H/X logo -->
+  <path
+    d="M22 5
+       L38 5
+       L38 35
+       L57 17
+       L57 39
+       L38 57
+       L22 57
+       Z"
+    fill="url(#logoBlue)"
+  />
+
+  <path
+    d="M0 27
+       L18 9
+       L18 28
+       L7 40
+       L7 58
+       L0 58
+       Z"
+    fill="#397CD9"
+  />
+
+  <path
+    d="M8 58
+       L8 40
+       L27 40
+       L27 68
+       L8 68
+       Z"
+    fill="#A8B7C8"
+    opacity=".8"
+  />
+
+  <text
+    x="85"
+    y="58"
+    font-family="Arial, Helvetica, sans-serif"
+    font-size="40"
+    font-weight="500"
+    fill="#E5E9EF"
+  >
+    AI Sales Network
+  </text>
+
+</g>
+
+
+<!-- ========================================================= -->
+<!-- DESK / MONITOR SHADOW -->
+<!-- ========================================================= -->
+
+<ellipse
+  cx="515"
+  cy="875"
+  rx="380"
+  ry="60"
+  fill="#000"
+  opacity=".75"
+  filter="url(#softShadow)"
+/>
+
+
+<!-- ========================================================= -->
+<!-- MONITOR -->
+<!-- ========================================================= -->
+
+<g filter="url(#softShadow)">
+
+  <!-- monitor outer body -->
+  <rect
+    x="115"
+    y="160"
+    width="800"
+    height="575"
+    rx="18"
+    fill="#05070A"
+    stroke="#26313D"
+    stroke-width="3"
+  />
+
+  <!-- monitor bezel -->
+  <rect
+    x="125"
+    y="170"
+    width="780"
+    height="550"
+    rx="12"
+    fill="#080B0F"
+  />
+
+  <!-- screen -->
+  <rect
+    x="132"
+    y="180"
+    width="760"
+    height="530"
+    rx="10"
+    fill="url(#screenBg)"
+  />
+
+  <!-- screen content -->
+  <g clip-path="url(#monitorScreen)">
+
+
+    <!-- ===================================================== -->
+    <!-- NAVIGATION BAR -->
+    <!-- ===================================================== -->
+
+    <rect
+      x="132"
+      y="180"
+      width="760"
+      height="55"
+      fill="#10151B"
+    />
+
+    <!-- logo -->
+    <g transform="translate(150 193) scale(.42)">
+
+      <path
+        d="M22 5 L38 5 L38 35 L57 17 L57 39 L38 57 L22 57Z"
+        fill="url(#logoBlue)"
+      />
+
+      <path
+        d="M0 27 L18 9 L18 28 L7 40 L7 58 L0 58Z"
+        fill="#397CD9"
+      />
+
+    </g>
+
+    <text
+      x="194"
+      y="214"
+      font-family="Arial"
+      font-size="14"
+      fill="#E8EDF4"
+    >
+      AI Sales Network
+    </text>
+
+
+    <!-- nav items -->
+
+    <text
+      x="325"
+      y="214"
+      font-family="Arial"
+      font-size="12"
+      fill="#3D96FF"
+    >
+      Dashboard
+    </text>
+
+    <text
+      x="402"
+      y="214"
+      font-family="Arial"
+      font-size="12"
+      fill="#AAB2BD"
+    >
+      Accounts
+    </text>
+
+    <text
+      x="480"
+      y="214"
+      font-family="Arial"
+      font-size="12"
+      fill="#AAB2BD"
+    >
+      Investments
+    </text>
+
+    <text
+      x="567"
+      y="214"
+      font-family="Arial"
+      font-size="12"
+      fill="#AAB2BD"
+    >
+      Analytics
+    </text>
+
+    <text
+      x="635"
+      y="214"
+      font-family="Arial"
+      font-size="12"
+      fill="#AAB2BD"
+    >
+      Settings
+    </text>
+
+    <!-- active line -->
+    <rect
+      x="325"
+      y="231"
+      width="57"
+      height="3"
+      fill="#338BEF"
+    />
+
+
+    <!-- user -->
+    <circle
+      cx="726"
+      cy="207"
+      r="14"
+      fill="#394652"
+    />
+
+    <circle
+      cx="726"
+      cy="203"
+      r="5"
+      fill="#D3A77E"
+    />
+
+    <path
+      d="M717 216 Q726 207 735 216"
+      fill="#6F8598"
+    />
+
+    <text
+      x="747"
+      y="203"
+      font-family="Arial"
+      font-size="11"
+      font-weight="bold"
+      fill="#E6EBF1"
+    >
+      Alex R.
+    </text>
+
+    <text
+      x="747"
+      y="217"
+      font-family="Arial"
+      font-size="8"
+      fill="#8895A3"
+    >
+      Premium User
+    </text>
+
+    <text
+      x="818"
+      y="211"
+      font-family="Arial"
+      font-size="9"
+      fill="#AEB8C3"
+    >
+      Oct 26, 11:34 AM
+    </text>
+
+
+    <!-- ===================================================== -->
+    <!-- PAGE TITLE -->
+    <!-- ===================================================== -->
+
+    <text
+      x="155"
+      y="272"
+      font-family="Arial"
+      font-size="26"
+      font-weight="bold"
+      fill="#F1F4F7"
+    >
+      Welcome Back, Alex
+    </text>
+
+    <text
+      x="155"
+      y="293"
+      font-family="Arial"
+      font-size="13"
+      fill="#A7B0BA"
+    >
+      Your Wealth Overview
+    </text>
+
+
+    <!-- filter -->
+    <rect
+      x="808"
+      y="260"
+      width="66"
+      height="28"
+      rx="6"
+      fill="#29333E"
+      stroke="#3B4652"
+    />
+
+    <text
+      x="820"
+      y="278"
+      font-family="Arial"
+      font-size="10"
+      fill="#DDE4EB"
+    >
+      All Toes
+    </text>
+
+    <path
+      d="M861 271 L865 275 L869 271"
+      stroke="#AAB4BF"
+      stroke-width="1"
+    />
+
+
+    <!-- ===================================================== -->
+    <!-- BALANCE TITLE -->
+    <!-- ===================================================== -->
+
+    <text
+      x="155"
+      y="326"
+      font-family="Arial"
+      font-size="14"
+      font-weight="bold"
+      fill="#E9EDF2"
+    >
+      Balance Cards
+    </text>
+
+
+    <!-- ===================================================== -->
+    <!-- BALANCE CARD 1 -->
+    <!-- ===================================================== -->
+
+    <g filter="url(#blueShadow)">
+
+      <rect
+        x="155"
+        y="340"
+        width="184"
+        height="110"
+        rx="10"
+        fill="url(#card)"
+        stroke="#4A9BFF"
+        stroke-width="1.5"
+      />
+
+      <rect
+        x="168"
+        y="353"
+        width="13"
+        height="13"
+        rx="2"
+        fill="none"
+        stroke="#4D9DFF"
+      />
+
+      <text
+        x="188"
+        y="365"
+        font-family="Arial"
+        font-size="12"
+        fill="#D0D7DE"
+      >
+        Net Worth
+      </text>
+
+      <text
+        x="168"
+        y="397"
+        font-family="Arial"
+        font-size="21"
+        font-weight="bold"
+        fill="#F1F5F8"
+      >
+        $412,875.40
+      </text>
+
+      <text
+        x="168"
+        y="416"
+        font-family="Arial"
+        font-size="11"
+        fill="#55C989"
+      >
+        +3.2% ▲
+      </text>
+
+      <polyline
+        points="168,438 184,431 197,435 212,428 227,434 244,430 258,431 274,420 283,435 298,415 311,429 324,417"
+        fill="none"
+        stroke="url(#graph)"
+        stroke-width="2"
+      />
+
+    </g>
+
+
+    <!-- ===================================================== -->
+    <!-- BALANCE CARD 2 -->
+    <!-- ===================================================== -->
+
+    <g filter="url(#blueShadow)">
+
+      <rect
+        x="350"
+        y="340"
+        width="184"
+        height="110"
+        rx="10"
+        fill="url(#card)"
+        stroke="#4A9BFF"
+        stroke-width="1.5"
+      />
+
+      <rect
+        x="363"
+        y="353"
+        width="13"
+        height="13"
+        rx="2"
+        fill="none"
+        stroke="#4D9DFF"
+      />
+
+      <text
+        x="383"
+        y="365"
+        font-family="Arial"
+        font-size="12"
+        fill="#D0D7DE"
+      >
+        Total Assets
+      </text>
+
+      <text
+        x="363"
+        y="397"
+        font-family="Arial"
+        font-size="21"
+        font-weight="bold"
+        fill="#F1F5F8"
+      >
+        $589,320.60
+      </text>
+
+      <polyline
+        points="363,438 378,432 390,437 405,426 419,431 432,422 446,425 461,416 476,423 492,414 505,418 520,411"
+        fill="none"
+        stroke="url(#graph)"
+        stroke-width="2"
+      />
+
+    </g>
+
+
+    <!-- ===================================================== -->
+    <!-- BALANCE CARD 3 -->
+    <!-- ===================================================== -->
+
+    <g filter="url(#blueShadow)">
+
+      <rect
+        x="545"
+        y="340"
+        width="184"
+        height="110"
+        rx="10"
+        fill="url(#card)"
+        stroke="#D6E2F0"
+        stroke-width="1.5"
+      />
+
+      <rect
+        x="558"
+        y="353"
+        width="13"
+        height="10"
+        rx="2"
+        fill="none"
+        stroke="#4D9DFF"
+      />
+
+      <text
+        x="578"
+        y="365"
+        font-family="Arial"
+        font-size="12"
+        fill="#D0D7DE"
+      >
+        Total Liabilities
+      </text>
+
+      <text
+        x="558"
+        y="397"
+        font-family="Arial"
+        font-size="21"
+        font-weight="bold"
+        fill="#F1F5F8"
+      >
+        $176,445.20
+      </text>
+
+      <polyline
+        points="558,438 573,432 587,434 602,422 617,428 632,419 647,430 662,416 678,421 693,425 708,415 721,409"
+        fill="none"
+        stroke="#4C9BF8"
+        stroke-width="2"
+      />
+
+    </g>
+
+
+    <!-- ===================================================== -->
+    <!-- RECENT TRANSACTIONS -->
+    <!-- ===================================================== -->
+
+    <rect
+      x="740"
+      y="330"
+      width="134"
+      height="172"
+      rx="10"
+      fill="#11171E"
+      stroke="#328DF4"
+      stroke-width="1.2"
+    />
+
+    <text
+      x="752"
+      y="353"
+      font-family="Arial"
+      font-size="12"
+      font-weight="bold"
+      fill="#EDF2F7"
+    >
+      Recent Transactions
+    </text>
+
+    <circle cx="862" cy="348" r="1.5" fill="#AAB3BD"/>
+    <circle cx="867" cy="348" r="1.5" fill="#AAB3BD"/>
+    <circle cx="872" cy="348" r="1.5" fill="#AAB3BD"/>
+
+
+    <!-- transaction 1 -->
+
+    <rect
+      x="750"
+      y="365"
+      width="26"
+      height="32"
+      rx="5"
+      fill="#303944"
+    />
+
+    <text
+      x="763"
+      y="378"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="7"
+      fill="#AAB4BF"
+    >
+      Oct
+    </text>
+
+    <text
+      x="763"
+      y="389"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="10"
+      fill="#E8EDF2"
+    >
+      26
+    </text>
+
+    <text
+      x="785"
+      y="378"
+      font-family="Arial"
+      font-size="10"
+      fill="#E7ECF1"
+    >
+      Netflix
+    </text>
+
+    <text
+      x="785"
+      y="390"
+      font-family="Arial"
+      font-size="8"
+      fill="#8995A2"
+    >
+      $19.99
+    </text>
+
+    <text
+      x="846"
+      y="384"
+      font-family="Arial"
+      font-size="9"
+      fill="#E6ECF2"
+    >
+      $19.99
+    </text>
+
+
+    <!-- transaction 2 -->
+
+    <rect
+      x="750"
+      y="410"
+      width="26"
+      height="32"
+      rx="5"
+      fill="#303944"
+    />
+
+    <text
+      x="763"
+      y="423"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="7"
+      fill="#AAB4BF"
+    >
+      Oct
+    </text>
+
+    <text
+      x="763"
+      y="434"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="10"
+      fill="#E8EDF2"
+    >
+      25
+    </text>
+
+    <text
+      x="785"
+      y="423"
+      font-family="Arial"
+      font-size="10"
+      fill="#E7ECF1"
+    >
+      Whole Foods
+    </text>
+
+    <text
+      x="785"
+      y="435"
+      font-family="Arial"
+      font-size="8"
+      fill="#8995A2"
+    >
+      $17.99
+    </text>
+
+    <text
+      x="846"
+      y="429"
+      font-family="Arial"
+      font-size="9"
+      fill="#E6ECF2"
+    >
+      $215.70
+    </text>
+
+
+    <!-- transaction 3 -->
+
+    <rect
+      x="750"
+      y="455"
+      width="26"
+      height="32"
+      rx="5"
+      fill="#303944"
+    />
+
+    <text
+      x="763"
+      y="468"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="7"
+      fill="#AAB4BF"
+    >
+      Oct
+    </text>
+
+    <text
+      x="763"
+      y="479"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="10"
+      fill="#E8EDF2"
+    >
+      24
+    </text>
+
+    <text
+      x="785"
+      y="468"
+      font-family="Arial"
+      font-size="10"
+      fill="#E7ECF1"
+    >
+      Vanguard Invest
+    </text>
+
+    <text
+      x="846"
+      y="474"
+      font-family="Arial"
+      font-size="9"
+      fill="#E6ECF2"
+    >
+      $1,500
+    </text>
+
+
+    <!-- ===================================================== -->
+    <!-- PORTFOLIO PERFORMANCE -->
+    <!-- ===================================================== -->
+
+    <rect
+      x="155"
+      y="470"
+      width="318"
+      height="205"
+      rx="10"
+      fill="#11171E"
+      stroke="#328DF4"
+      stroke-width="1.2"
+    />
+
+    <text
+      x="168"
+      y="495"
+      font-family="Arial"
+      font-size="14"
+      font-weight="bold"
+      fill="#EEF2F6"
+    >
+      Portfolio Performance
+    </text>
+
+    <!-- tabs -->
+
+    <text
+      x="373"
+      y="495"
+      font-family="Arial"
+      font-size="10"
+      fill="#348FF2"
+    >
+      1M
+    </text>
+
+    <text
+      x="403"
+      y="495"
+      font-family="Arial"
+      font-size="10"
+      fill="#A4AFBA"
+    >
+      3M
+    </text>
+
+    <text
+      x="432"
+      y="495"
+      font-family="Arial"
+      font-size="10"
+      fill="#A4AFBA"
+    >
+      6M
+    </text>
+
+    <text
+      x="459"
+      y="495"
+      font-family="Arial"
+      font-size="10"
+      fill="#A4AFBA"
+    >
+      1Y
+    </text>
+
+
+    <!-- graph grid -->
+
+    <g stroke="#29333E" stroke-width="1">
+
+      <line x1="185" y1="520" x2="458" y2="520"/>
+      <line x1="185" y1="546" x2="458" y2="546"/>
+      <line x1="185" y1="572" x2="458" y2="572"/>
+      <line x1="185" y1="598" x2="458" y2="598"/>
+      <line x1="185" y1="624" x2="458" y2="624"/>
+      <line x1="185" y1="650" x2="458" y2="650"/>
+
+    </g>
+
+
+    <!-- y labels -->
+
+    <g
+      font-family="Arial"
+      font-size="8"
+      fill="#87929E"
+    >
+      <text x="168" y="523">25M</text>
+      <text x="168" y="549">20M</text>
+      <text x="168" y="575">15M</text>
+      <text x="168" y="601">10M</text>
+      <text x="168" y="627">5M</text>
+      <text x="173" y="653">0</text>
+    </g>
+
+
+    <!-- graph fill -->
+
+    <path
+      d="
+        M185 650
+        L207 625
+        L230 638
+        L253 618
+        L276 604
+        L299 612
+        L322 584
+        L345 571
+        L368 535
+        L391 551
+        L414 536
+        L437 510
+        L458 490
+        L458 650
+        Z"
+      fill="url(#graphFill)"
+    />
+
+    <!-- graph line -->
+
+    <path
+      d="
+        M185 650
+        L207 625
+        L230 638
+        L253 618
+        L276 604
+        L299 612
+        L322 584
+        L345 571
+        L368 535
+        L391 551
+        L414 536
+        L437 510
+        L458 490"
+      fill="none"
+      stroke="url(#graph)"
+      stroke-width="3"
+      filter="url(#glow)"
+    />
+
+
+    <!-- graph points -->
+
+    <g fill="#18212A" stroke="#D8E9FF" stroke-width="1.5">
+
+      <circle cx="253" cy="618" r="4"/>
+      <circle cx="299" cy="612" r="4"/>
+      <circle cx="368" cy="535" r="4"/>
+      <circle cx="414" cy="536" r="4"/>
+
+    </g>
+
+
+    <!-- graph labels -->
+
+    <g
+      font-family="Arial"
+      font-size="8"
+      fill="#DCE6F0"
+    >
+      <rect x="238" y="592" width="32" height="16" rx="3" fill="#28313A"/>
+      <text x="244" y="603">$1.80</text>
+
+      <rect x="284" y="583" width="32" height="16" rx="3" fill="#28313A"/>
+      <text x="290" y="594">$3.96</text>
+
+      <rect x="352" y="510" width="32" height="16" rx="3" fill="#28313A"/>
+      <text x="358" y="521">$6.26</text>
+
+      <rect x="399" y="514" width="34" height="16" rx="3" fill="#28313A"/>
+      <text x="405" y="525">$5.98</text>
+    </g>
+
+
+    <!-- x labels -->
+
+    <g
+      font-family="Arial"
+      font-size="8"
+      fill="#87929E"
+    >
+      <text x="181" y="666">Jan</text>
+      <text x="228" y="666">Feb</text>
+      <text x="275" y="666">Mar</text>
+      <text x="322" y="666">Apr</text>
+      <text x="370" y="666">May</text>
+      <text x="446" y="666">Jun</text>
+    </g>
+
+
+    <!-- ===================================================== -->
+    <!-- SPENDING INSIGHTS -->
+    <!-- ===================================================== -->
+
+    <rect
+      x="485"
+      y="470"
+      width="245"
+      height="205"
+      rx="10"
+      fill="#11171E"
+      stroke="#328DF4"
+      stroke-width="1.2"
+    />
+
+    <text
+      x="498"
+      y="495"
+      font-family="Arial"
+      font-size="14"
+      font-weight="bold"
+      fill="#EEF2F6"
+    >
+      Spending Insights
+    </text>
+
+
+    <!-- donut chart -->
+
+    <circle
+      cx="565"
+      cy="575"
+      r="58"
+      fill="#0E141A"
+      stroke="#202A34"
+      stroke-width="1"
+    />
+
+    <!-- donut segments -->
+
+    <path
+      d="M565 517
+         A58 58 0 0 1 621 559
+         L596 563
+         A32 32 0 0 0 565 543Z"
+      fill="#287BE4"
+      stroke="#0B1117"
+      stroke-width="1"
+    />
+
+    <path
+      d="M621 559
+         A58 58 0 0 1 606 617
+         L588 595
+         A32 32 0 0 0 596 563Z"
+      fill="#478EDB"
+      stroke="#0B1117"
+      stroke-width="1"
+    />
+
+    <path
+      d="M606 617
+         A58 58 0 0 1 546 631
+         L554 601
+         A32 32 0 0 0 588 595Z"
+      fill="#6A9ED7"
+      stroke="#0B1117"
+      stroke-width="1"
+    />
+
+    <path
+      d="M546 631
+         A58 58 0 0 1 514 602
+         L537 586
+         A32 32 0 0 0 554 601Z"
+      fill="#88A8D2"
+      stroke="#0B1117"
+      stroke-width="1"
+    />
+
+    <path
+      d="M514 602
+         A58 58 0 0 1 517 547
+         L540 560
+         A32 32 0 0 0 537 586Z"
+      fill="#A9BDD6"
+      stroke="#0B1117"
+      stroke-width="1"
+    />
+
+    <path
+      d="M517 547
+         A58 58 0 0 1 565 517
+         L565 543
+         A32 32 0 0 0 540 560Z"
+      fill="#D0DBE8"
+      stroke="#0B1117"
+      stroke-width="1"
+    />
+
+
+    <!-- donut center -->
+
+    <text
+      x="565"
+      y="570"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="10"
+      fill="#B5C0CB"
+    >
+      Oct
+    </text>
+
+    <text
+      x="565"
+      y="586"
+      text-anchor="middle"
+      font-family="Arial"
+      font-size="11"
+      fill="#EEF3F8"
+    >
+      $4,912.30
+    </text>
+
+
+    <!-- legend -->
+
+    <g font-family="Arial" font-size="9">
+
+      <circle cx="640" cy="536" r="4" fill="#287BE4"/>
+      <text x="650" y="539" fill="#D4DCE5">Housing</text>
+      <text x="710" y="539" fill="#D4DCE5">34%</text>
+
+      <circle cx="640" cy="555" r="4" fill="#478EDB"/>
+      <text x="650" y="558" fill="#D4DCE5">Groceries</text>
+      <text x="710" y="558" fill="#D4DCE5">18%</text>
+
+      <circle cx="640" cy="574" r="4" fill="#6A9ED7"/>
+      <text x="650" y="577" fill="#D4DCE5">Dining</text>
+      <text x="710" y="577" fill="#D4DCE5">15%</text>
+
+      <circle cx="640" cy="593" r="4" fill="#88A8D2"/>
+      <text x="650" y="596" fill="#D4DCE5">Shopping</text>
+      <text x="710" y="596" fill="#D4DCE5">12%</text>
+
+      <circle cx="640" cy="612" r="4" fill="#C3D2E3"/>
+      <text x="650" y="615" fill="#D4DCE5">Transport</text>
+      <text x="710" y="615" fill="#D4DCE5">10%</text>
+
+    </g>
+
+    <text
+      x="548"
+      y="658"
+      font-family="Arial"
+      font-size="10"
+      fill="#D5DDE5"
+    >
+      Total: $4,912.30 spent
+    </text>
+
+
+    <!-- ===================================================== -->
+    <!-- INVESTMENT ALLOCATIONS -->
+    <!-- ===================================================== -->
+
+    <rect
+      x="740"
+      y="515"
+      width="134"
+      height="160"
+      rx="10"
+      fill="#11171E"
+      stroke="#328DF4"
+      stroke-width="1.2"
+    />
+
+    <text
+      x="752"
+      y="539"
+      font-family="Arial"
+      font-size="12"
+      font-weight="bold"
+      fill="#EEF2F6"
+    >
+      Investment Allocations
+    </text>
+
+
+    <!-- stocks -->
+
+    <text
+      x="752"
+      y="565"
+      font-family="Arial"
+      font-size="10"
+      fill="#D6DEE7"
+    >
+      Stocks
+    </text>
+
+    <text
+      x="851"
+      y="565"
+      font-family="Arial"
+      font-size="10"
+      fill="#D6DEE7"
+    >
+      65%
+    </text>
+
+    <rect
+      x="752"
+      y="570"
+      width="110"
+      height="6"
+      rx="3"
+      fill="#323C47"
+    />
+
+    <rect
+      x="752"
+      y="570"
+      width="72"
+      height="6"
+      rx="3"
+      fill="#368DEB"
+    />
+
+
+    <!-- bonds -->
+
+    <text
+      x="752"
+      y="595"
+      font-family="Arial"
+      font-size="10"
+      fill="#D6DEE7"
+    >
+      Bonds
+    </text>
+
+    <text
+      x="851"
+      y="595"
+      font-family="Arial"
+      font-size="10"
+      fill="#D6DEE7"
+    >
+      20%
+    </text>
+
+    <rect
+      x="752"
+      y="600"
+      width="110"
+      height="6"
+      rx="3"
+      fill="#323C47"
+    />
+
+    <rect
+      x="752"
+      y="600"
+      width="38"
+      height="6"
+      rx="3"
+      fill="#91B3D8"
+    />
+
+
+    <!-- cash -->
+
+    <text
+      x="752"
+      y="625"
+      font-family="Arial"
+      font-size="10"
+      fill="#D6DEE7"
+    >
+      Cash
+    </text>
+
+    <text
+      x="851"
+      y="625"
+      font-family="Arial"
+      font-size="10"
+      fill="#D6DEE7"
+    >
+      10%
+    </text>
+
+    <rect
+      x="752"
+      y="630"
+      width="110"
+      height="6"
+      rx="3"
+      fill="#323C47"
+    />
+
+    <rect
+      x="752"
+      y="630"
+      width="19"
+      height="6"
+      rx="3"
+      fill="#B7CBE1"
+    />
+
+
+    <!-- crypto -->
+
+    <text
+      x="752"
+      y="655"
+      font-family="Arial"
+      font-size="10"
+      fill="#D6DEE7"
+    >
+      Crypto
+    </text>
+
+    <text
+      x="851"
+      y="655"
+      font-family="Arial"
+      font-size="10"
+      fill="#D6DEE7"
+    >
+      5%
+    </text>
+
+    <rect
+      x="752"
+      y="660"
+      width="110"
+      height="6"
+      rx="3"
+      fill="#323C47"
+    />
+
+    <rect
+      x="752"
+      y="660"
+      width="12"
+      height="6"
+      rx="3"
+      fill="#7E9CBD"
+    />
+
+  </g>
+
+
+  <!-- monitor bottom edge -->
+  <rect
+    x="125"
+    y="710"
+    width="780"
+    height="18"
+    rx="4"
+    fill="#080B0F"
+  />
+
+</g>
+
+
+<!-- ========================================================= -->
+<!-- MONITOR STAND -->
+<!-- ========================================================= -->
+
+<g>
+
+  <!-- neck -->
+  <path
+    d="M425 725
+       L600 725
+       L580 825
+       L445 825
+       Z"
+    fill="#15191D"
+  />
+
+  <path
+    d="M445 825
+       L580 825
+       L640 858
+       L395 858
+       Z"
+    fill="#22282E"
+    stroke="#343C45"
+    stroke-width="2"
+  />
+
+  <path
+    d="M395 858
+       L640 858
+       L675 880
+       L365 880
+       Z"
+    fill="#111519"
+  />
+
+</g>
+
+
+<!-- ========================================================= -->
+<!-- DESK -->
+<!-- ========================================================= -->
+
+<path
+  d="
+    M0 890
+    L1024 890
+    L1024 1024
+    L0 1024
+    Z"
+  fill="#111820"
+/>
+
+<path
+  d="
+    M0 890
+    L1024 890
+    L1024 930
+    L0 930
+    Z"
+  fill="#182330"
+/>
+
+<!-- desk highlights -->
+<line
+  x1="0"
+  y1="895"
+  x2="1024"
+  y2="895"
+  stroke="#344456"
+  stroke-width="2"
+/>
+
+
+<!-- ========================================================= -->
+<!-- KEYBOARD -->
+<!-- ========================================================= -->
+
+<g transform="translate(330 910)">
+
+  <path
+    d="
+      M0 15
+      L440 0
+      L485 58
+      L42 72
+      Z"
+    fill="#080B0E"
+    stroke="#28323D"
+    stroke-width="2"
+  />
+
+  <g fill="#252D35">
+
+    <!-- rows -->
+    <g transform="translate(25 16)">
+      <rect width="30" height="8" rx="2"/>
+      <rect x="36" width="30" height="8" rx="2"/>
+      <rect x="72" width="30" height="8" rx="2"/>
+      <rect x="108" width="30" height="8" rx="2"/>
+      <rect x="144" width="30" height="8" rx="2"/>
+      <rect x="180" width="30" height="8" rx="2"/>
+      <rect x="216" width="30" height="8" rx="2"/>
+      <rect x="252" width="30" height="8" rx="2"/>
+      <rect x="288" width="30" height="8" rx="2"/>
+      <rect x="324" width="30" height="8" rx="2"/>
+      <rect x="360" width="30" height="8" rx="2"/>
+
+      <rect x="5" y="14" width="30" height="8" rx="2"/>
+      <rect x="41" y="14" width="30" height="8" rx="2"/>
+      <rect x="77" y="14" width="30" height="8" rx="2"/>
+      <rect x="113" y="14" width="30" height="8" rx="2"/>
+      <rect x="149" y="14" width="30" height="8" rx="2"/>
+      <rect x="185" y="14" width="30" height="8" rx="2"/>
+      <rect x="221" y="14" width="30" height="8" rx="2"/>
+      <rect x="257" y="14" width="30" height="8" rx="2"/>
+      <rect x="293" y="14" width="30" height="8" rx="2"/>
+      <rect x="329" y="14" width="30" height="8" rx="2"/>
+
+      <rect x="15" y="28" width="30" height="8" rx="2"/>
+      <rect x="51" y="28" width="30" height="8" rx="2"/>
+      <rect x="87" y="28" width="30" height="8" rx="2"/>
+      <rect x="123" y="28" width="30" height="8" rx="2"/>
+      <rect x="159" y="28" width="30" height="8" rx="2"/>
+      <rect x="195" y="28" width="30" height="8" rx="2"/>
+      <rect x="231" y="28" width="30" height="8" rx="2"/>
+      <rect x="267" y="28" width="30" height="8" rx="2"/>
+      <rect x="303" y="28" width="30" height="8" rx="2"/>
+
+      <rect x="80" y="42" width="210" height="9" rx="3"/>
+
+    </g>
+
+  </g>
+
+</g>
+
+
+<!-- ========================================================= -->
+<!-- GLASS -->
+<!-- ========================================================= -->
+
+<g transform="translate(18 705)">
+
+  <path
+    d="M0 0
+       L75 0
+       L68 115
+       L8 115
+       Z"
+    fill="#182633"
+    opacity=".7"
+    stroke="#65788A"
+    stroke-width="1"
+  />
+
+  <ellipse
+    cx="37"
+    cy="0"
+    rx="37"
+    ry="7"
+    fill="#334655"
+    opacity=".8"
+  />
+
+  <path
+    d="M8 60 L68 60 L66 112 L10 112 Z"
+    fill="#6C92B4"
+    opacity=".13"
+  />
+
+</g>
+
+
+<!-- ========================================================= -->
+<!-- DECORATIVE DESK OBJECT -->
+<!-- ========================================================= -->
+
+<g transform="translate(910 840)">
+
+  <ellipse
+    cx="40"
+    cy="65"
+    rx="48"
+    ry="15"
+    fill="#050709"
+  />
+
+  <path
+    d="M5 35
+       Q40 10 75 35
+       L70 58
+       Q40 70 10 58
+       Z"
+    fill="#1A2026"
+    stroke="#3C4650"
+  />
+
+</g>
+
+</svg>

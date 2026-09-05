@@ -1,0 +1,863 @@
+<svg
+  width="1408"
+  height="768"
+  viewBox="0 0 1408 768"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <defs>
+
+    <!-- Background -->
+    <radialGradient id="bgGlow" cx="50%" cy="45%" r="70%">
+      <stop offset="0%" stop-color="#242424"/>
+      <stop offset="45%" stop-color="#151515"/>
+      <stop offset="100%" stop-color="#090909"/>
+    </radialGradient>
+
+    <radialGradient id="phoneGlow" cx="50%" cy="50%" r="70%">
+      <stop offset="0%" stop-color="#8D7340" stop-opacity=".25"/>
+      <stop offset="100%" stop-color="#8D7340" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Gold -->
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#F7E9B7"/>
+      <stop offset="45%" stop-color="#C6A45B"/>
+      <stop offset="100%" stop-color="#8E6C31"/>
+    </linearGradient>
+
+    <linearGradient id="goldButton" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C5A15A"/>
+      <stop offset="100%" stop-color="#937039"/>
+    </linearGradient>
+
+    <!-- Phone body -->
+    <linearGradient id="phoneBody" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3E3E3E"/>
+      <stop offset="30%" stop-color="#090909"/>
+      <stop offset="70%" stop-color="#242424"/>
+      <stop offset="100%" stop-color="#050505"/>
+    </linearGradient>
+
+    <linearGradient id="phoneEdge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#777777"/>
+      <stop offset="30%" stop-color="#151515"/>
+      <stop offset="70%" stop-color="#666666"/>
+      <stop offset="100%" stop-color="#101010"/>
+    </linearGradient>
+
+    <!-- Screen -->
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#F8F3E7"/>
+      <stop offset="100%" stop-color="#EDE4D1"/>
+    </linearGradient>
+
+    <!-- Product backgrounds -->
+    <linearGradient id="product1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#D9CFC0"/>
+      <stop offset="100%" stop-color="#B8AA97"/>
+    </linearGradient>
+
+    <linearGradient id="product2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E1D5C3"/>
+      <stop offset="100%" stop-color="#C2B29C"/>
+    </linearGradient>
+
+    <linearGradient id="product3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#4A4741"/>
+      <stop offset="100%" stop-color="#151515"/>
+    </linearGradient>
+
+    <!-- Shadows -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+
+    <filter id="phoneShadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow
+        dx="0"
+        dy="25"
+        stdDeviation="18"
+        flood-color="#000000"
+        flood-opacity=".75"
+      />
+    </filter>
+
+    <filter id="softGlow">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+
+    <!-- Left screen clip -->
+    <clipPath id="leftScreenClip">
+      <rect
+        x="0"
+        y="0"
+        width="430"
+        height="690"
+        rx="58"
+      />
+    </clipPath>
+
+    <!-- Right screen clip -->
+    <clipPath id="rightScreenClip">
+      <rect
+        x="0"
+        y="0"
+        width="430"
+        height="690"
+        rx="58"
+      />
+    </clipPath>
+
+  </defs>
+
+
+  <!-- ========================================================= -->
+  <!-- BACKGROUND -->
+  <!-- ========================================================= -->
+
+  <rect width="1408" height="768" fill="url(#bgGlow)"/>
+
+  <!-- subtle center glow -->
+  <ellipse
+    cx="704"
+    cy="420"
+    rx="570"
+    ry="270"
+    fill="url(#phoneGlow)"
+    opacity=".55"
+  />
+
+  <!-- stars / particles -->
+  <g fill="#B8B8B8">
+    <circle cx="126" cy="158" r="1.2"/>
+    <circle cx="164" cy="128" r=".8"/>
+    <circle cx="245" cy="97" r=".7"/>
+    <circle cx="1280" cy="79" r="1"/>
+    <circle cx="1235" cy="155" r=".8"/>
+    <circle cx="1318" cy="196" r=".6"/>
+    <circle cx="91" cy="330" r=".6"/>
+    <circle cx="1345" cy="320" r=".7"/>
+    <circle cx="112" cy="604" r=".8"/>
+    <circle cx="1288" cy="600" r=".8"/>
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- TITLE -->
+  <!-- ========================================================= -->
+
+  <g>
+    <line
+      x1="436"
+      y1="80"
+      x2="496"
+      y2="80"
+      stroke="#8E7847"
+      stroke-width="1"
+    />
+
+    <line
+      x1="912"
+      y1="80"
+      x2="972"
+      y2="80"
+      stroke="#8E7847"
+      stroke-width="1"
+    />
+
+    <!-- left diamond -->
+    <path
+      d="M496 80 L501 75 L506 80 L501 85 Z"
+      fill="#C5A45F"
+    />
+
+    <!-- right diamond -->
+    <path
+      d="M907 80 L912 75 L917 80 L912 85 Z"
+      fill="#C5A45F"
+    />
+
+    <text
+      x="704"
+      y="99"
+      text-anchor="middle"
+      font-family="Georgia, 'Times New Roman', serif"
+      font-size="52"
+      letter-spacing="2"
+      fill="#F2EEDF"
+    >
+      TP E-STORE
+    </text>
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- FLOOR SHADOW -->
+  <!-- ========================================================= -->
+
+  <ellipse
+    cx="704"
+    cy="695"
+    rx="500"
+    ry="48"
+    fill="#000"
+    opacity=".8"
+    filter="url(#shadow)"
+  />
+
+  <!-- ========================================================= -->
+  <!-- LEFT PHONE -->
+  <!-- ========================================================= -->
+
+  <g transform="translate(145 108) rotate(-20 215 345)" filter="url(#phoneShadow)">
+
+    <!-- phone outer -->
+    <rect
+      x="-12"
+      y="-12"
+      width="454"
+      height="714"
+      rx="70"
+      fill="url(#phoneEdge)"
+    />
+
+    <!-- phone body -->
+    <rect
+      x="0"
+      y="0"
+      width="430"
+      height="690"
+      rx="62"
+      fill="url(#phoneBody)"
+    />
+
+    <!-- metallic edge -->
+    <rect
+      x="6"
+      y="6"
+      width="418"
+      height="678"
+      rx="56"
+      fill="none"
+      stroke="#5C5C5C"
+      stroke-width="2"
+    />
+
+    <!-- side buttons -->
+    <rect x="-8" y="152" width="7" height="62" rx="3" fill="#565656"/>
+    <rect x="-8" y="226" width="7" height="35" rx="3" fill="#565656"/>
+    <rect x="431" y="180" width="7" height="80" rx="3" fill="#333"/>
+
+    <!-- SCREEN -->
+    <g transform="translate(0 0)" clip-path="url(#leftScreenClip)">
+
+      <rect width="430" height="690" fill="url(#screen)"/>
+
+      <!-- header -->
+      <rect width="430" height="90" fill="#F7F1E5"/>
+
+      <!-- menu -->
+      <g stroke="#111" stroke-width="2">
+        <line x1="25" y1="38" x2="46" y2="38"/>
+        <line x1="25" y1="45" x2="46" y2="45"/>
+        <line x1="25" y1="52" x2="46" y2="52"/>
+      </g>
+
+      <!-- logo -->
+      <text
+        x="215"
+        y="52"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="23"
+        fill="#111"
+      >
+        TP
+      </text>
+
+      <!-- search -->
+      <circle
+        cx="365"
+        cy="38"
+        r="8"
+        fill="none"
+        stroke="#111"
+        stroke-width="1.7"
+      />
+      <line
+        x1="371"
+        y1="44"
+        x2="378"
+        y2="51"
+        stroke="#111"
+        stroke-width="1.7"
+      />
+
+      <!-- bag -->
+      <path
+        d="M389 40 Q397 40 398 48 L400 58 L386 58 L388 48 Q389 41 394 41"
+        fill="none"
+        stroke="#8C713B"
+        stroke-width="1.5"
+      />
+
+
+      <!-- NEW ARRIVALS -->
+      <text
+        x="215"
+        y="125"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="28"
+        fill="#111"
+      >
+        NEW ARRIVALS
+      </text>
+
+
+      <!-- product card 1 -->
+      <rect
+        x="22"
+        y="150"
+        width="185"
+        height="185"
+        rx="9"
+        fill="url(#product1)"
+      />
+
+      <!-- blouse silhouette -->
+      <path
+        d="M88 175
+           L66 194
+           L80 213
+           L92 205
+           L92 290
+           L150 290
+           L150 205
+           L162 213
+           L176 194
+           L153 175
+           L138 170
+           Q122 185 107 170
+           Z"
+        fill="#151515"
+      />
+
+      <text
+        x="27"
+        y="358"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#111"
+      >
+        Silk Blouse
+      </text>
+
+      <text
+        x="27"
+        y="378"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#111"
+      >
+        €380
+      </text>
+
+      <text
+        x="180"
+        y="357"
+        font-size="18"
+        fill="#9B7B3D"
+      >
+        ♥
+      </text>
+
+
+      <!-- product card 2 -->
+      <rect
+        x="222"
+        y="150"
+        width="185"
+        height="185"
+        rx="9"
+        fill="url(#product2)"
+      />
+
+      <!-- coat -->
+      <path
+        d="M277 175
+           L257 201
+           L272 216
+           L286 204
+           L286 294
+           L342 294
+           L342 204
+           L356 216
+           L372 201
+           L352 175
+           L333 168
+           L297 168
+           Z"
+        fill="#B7A992"
+        stroke="#6D6252"
+        stroke-width="2"
+      />
+
+      <line x1="314" y1="175" x2="314" y2="294"
+            stroke="#655A4B" stroke-width="2"/>
+
+      <text
+        x="227"
+        y="358"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#111"
+      >
+        Trench Coat
+      </text>
+
+      <text
+        x="227"
+        y="378"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#111"
+      >
+        €890
+      </text>
+
+
+      <!-- row 2 -->
+
+      <rect
+        x="22"
+        y="405"
+        width="185"
+        height="185"
+        rx="9"
+        fill="#D1C8BA"
+      />
+
+      <!-- boot -->
+      <path
+        d="M74 455
+           L127 455
+           L139 513
+           L181 529
+           Q188 534 184 543
+           L70 543
+           Q62 542 64 533
+           L82 517
+           Z"
+        fill="#171717"
+      />
+
+      <text
+        x="27"
+        y="615"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#111"
+      >
+        Leather Boots
+      </text>
+
+      <text
+        x="27"
+        y="635"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#111"
+      >
+        €430
+      </text>
+
+
+      <!-- necklace -->
+      <rect
+        x="222"
+        y="405"
+        width="185"
+        height="185"
+        rx="9"
+        fill="url(#product3)"
+      />
+
+      <ellipse
+        cx="314"
+        cy="490"
+        rx="56"
+        ry="42"
+        fill="none"
+        stroke="#B99755"
+        stroke-width="5"
+      />
+
+      <circle
+        cx="314"
+        cy="532"
+        r="10"
+        fill="#C9A55F"
+      />
+
+      <text
+        x="227"
+        y="615"
+        font-family="Arial, sans-serif"
+        font-size="14"
+        fill="#111"
+      >
+        Necklace
+      </text>
+
+      <text
+        x="227"
+        y="635"
+        font-family="Arial, sans-serif"
+        font-size="16"
+        font-weight="bold"
+        fill="#111"
+      >
+        €290
+      </text>
+
+    </g>
+
+    <!-- Dynamic island -->
+    <rect
+      x="153"
+      y="16"
+      width="124"
+      height="30"
+      rx="16"
+      fill="#050505"
+    />
+
+    <circle cx="248" cy="31" r="5" fill="#151515"/>
+
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- RIGHT PHONE -->
+  <!-- ========================================================= -->
+
+  <g transform="translate(833 108) rotate(20 215 345)" filter="url(#phoneShadow)">
+
+    <!-- outer -->
+    <rect
+      x="-12"
+      y="-12"
+      width="454"
+      height="714"
+      rx="70"
+      fill="url(#phoneEdge)"
+    />
+
+    <!-- body -->
+    <rect
+      x="0"
+      y="0"
+      width="430"
+      height="690"
+      rx="62"
+      fill="url(#phoneBody)"
+    />
+
+    <rect
+      x="6"
+      y="6"
+      width="418"
+      height="678"
+      rx="56"
+      fill="none"
+      stroke="#5C5C5C"
+      stroke-width="2"
+    />
+
+    <!-- side buttons -->
+    <rect x="431" y="150" width="7" height="62" rx="3" fill="#555"/>
+    <rect x="431" y="225" width="7" height="35" rx="3" fill="#555"/>
+    <rect x="-8" y="180" width="7" height="80" rx="3" fill="#333"/>
+
+
+    <!-- SCREEN -->
+    <g clip-path="url(#rightScreenClip)">
+
+      <rect width="430" height="690" fill="url(#screen)"/>
+
+      <!-- header -->
+      <rect width="430" height="90" fill="#F7F1E5"/>
+
+      <!-- menu -->
+      <g stroke="#111" stroke-width="2">
+        <line x1="25" y1="38" x2="46" y2="38"/>
+        <line x1="25" y1="45" x2="46" y2="45"/>
+        <line x1="25" y1="52" x2="46" y2="52"/>
+      </g>
+
+      <!-- logo -->
+      <text
+        x="215"
+        y="52"
+        text-anchor="middle"
+        font-family="Georgia, serif"
+        font-size="23"
+        fill="#111"
+      >
+        TP
+      </text>
+
+      <!-- search -->
+      <circle
+        cx="365"
+        cy="38"
+        r="8"
+        fill="none"
+        stroke="#111"
+        stroke-width="1.7"
+      />
+      <line
+        x1="371"
+        y1="44"
+        x2="378"
+        y2="51"
+        stroke="#111"
+        stroke-width="1.7"
+      />
+
+      <!-- bag -->
+      <path
+        d="M389 40 Q397 40 398 48 L400 58 L386 58 L388 48 Q389 41 394 41"
+        fill="none"
+        stroke="#8C713B"
+        stroke-width="1.5"
+      />
+
+
+      <!-- product image -->
+      <rect
+        x="25"
+        y="112"
+        width="380"
+        height="300"
+        rx="8"
+        fill="#D0C4B1"
+      />
+
+      <!-- model -->
+      <circle
+        cx="215"
+        cy="178"
+        r="36"
+        fill="#A88970"
+      />
+
+      <!-- hair -->
+      <path
+        d="M175 177
+           Q177 132 215 130
+           Q255 132 258 180
+           Q245 153 215 151
+           Q187 155 175 177Z"
+        fill="#352A24"
+      />
+
+      <!-- dress -->
+      <path
+        d="M187 212
+           Q215 199 243 212
+           L270 392
+           L160 392
+           Z"
+        fill="#151515"
+      />
+
+      <!-- dress highlight -->
+      <path
+        d="M208 220 L215 365"
+        stroke="#403A35"
+        stroke-width="4"
+        opacity=".7"
+      />
+
+      <!-- PRODUCT TITLE -->
+      <text
+        x="25"
+        y="460"
+        font-family="Georgia, serif"
+        font-size="25"
+        fill="#111"
+      >
+        THE SILK SLIP DRESS
+      </text>
+
+      <text
+        x="25"
+        y="493"
+        font-family="Arial, sans-serif"
+        font-size="18"
+        font-weight="bold"
+        fill="#111"
+      >
+        €420
+      </text>
+
+
+      <!-- description -->
+      <text
+        x="25"
+        y="526"
+        font-family="Arial, sans-serif"
+        font-size="11"
+        fill="#252525"
+      >
+        <tspan x="25" dy="0">
+          The silk slip dress is elegant and effortless,
+        </tspan>
+        <tspan x="25" dy="15">
+          perfect for special moments and everyday style.
+        </tspan>
+        <tspan x="25" dy="15">
+          Crafted from smooth premium silk.
+        </tspan>
+      </text>
+
+
+      <!-- size -->
+      <text
+        x="25"
+        y="585"
+        font-family="Arial, sans-serif"
+        font-size="11"
+        fill="#555"
+      >
+        Size
+      </text>
+
+      <rect
+        x="25"
+        y="595"
+        width="34"
+        height="28"
+        rx="2"
+        fill="#171717"
+      />
+
+      <text
+        x="42"
+        y="614"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="11"
+        fill="white"
+      >
+        S
+      </text>
+
+      <rect
+        x="65"
+        y="595"
+        width="34"
+        height="28"
+        rx="2"
+        fill="none"
+        stroke="#777"
+      />
+
+      <text
+        x="82"
+        y="614"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="11"
+        fill="#222"
+      >
+        M
+      </text>
+
+      <rect
+        x="105"
+        y="595"
+        width="34"
+        height="28"
+        rx="2"
+        fill="none"
+        stroke="#777"
+      />
+
+      <text
+        x="122"
+        y="614"
+        text-anchor="middle"
+        font-family="Arial"
+        font-size="11"
+        fill="#222"
+      >
+        L
+      </text>
+
+
+      <!-- ADD TO CART -->
+      <rect
+        x="25"
+        y="642"
+        width="380"
+        height="46"
+        rx="4"
+        fill="url(#goldButton)"
+      />
+
+      <text
+        x="215"
+        y="671"
+        text-anchor="middle"
+        font-family="Arial, sans-serif"
+        font-size="13"
+        fill="#F7F1E5"
+        letter-spacing=".5"
+      >
+        ADD TO CART
+      </text>
+
+    </g>
+
+    <!-- Dynamic island -->
+    <rect
+      x="153"
+      y="16"
+      width="124"
+      height="30"
+      rx="16"
+      fill="#050505"
+    />
+
+    <circle cx="248" cy="31" r="5" fill="#151515"/>
+
+  </g>
+
+
+  <!-- ========================================================= -->
+  <!-- DECORATIVE STAR -->
+  <!-- ========================================================= -->
+
+  <g transform="translate(1350 710)">
+    <path
+      d="
+        M0 -22
+        C5 -8 8 -5 22 0
+        C8 5 5 8 0 22
+        C-5 8 -8 5 -22 0
+        C-8 -5 -5 -8 0 -22
+        Z
+      "
+      fill="#B7B7B7"
+    />
+  </g>
+
+</svg>

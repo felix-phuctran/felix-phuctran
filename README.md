@@ -7,7 +7,7 @@
 
 <picture>
   <source media="(max-width: 600px)" srcset="./assets/hero/hero-01-mobile.webp">
-  <img src="./assets/hero/hero-01.webp" width="100%" alt="Ultra-cinematic 3D render of a mysterious elite hacker at a high-tech workstation with curved holographic displays, emerald code streams, and 3D architectural models" />
+  <img src="./hero-01.webp" width="100%" alt="Ultra-cinematic 3D render of a mysterious elite hacker at a high-tech workstation with curved holographic displays, emerald code streams, and 3D architectural models" />
 </picture>
 
 <br/>
@@ -32,12 +32,12 @@
 ---
 
 <!-- ================= 4. COMMAND CENTER HUD BANNER ================= -->
-<p align="center">
+<!-- <p align="center">
   <img src="./banner.svg?v=1" alt="Developer Command Center HUD" width="100%">
-</p>
+</p> -->
 
 <!-- ================= 5. 3D LANYARD & PRODUCTION STATS ================= -->
-<table border="0" width="100%" cellpadding="0" cellspacing="0">
+<!-- <table border="0" width="100%" cellpadding="0" cellspacing="0">
   <tr>
     <td width="42%" align="center" valign="top">
       <img src="./lanyard.svg?v=1" alt="Staff Architect ID Badge" width="100%">
@@ -46,16 +46,16 @@
       <img src="./stats.svg?v=1" alt="Production Telemetry & Radar" width="100%">
     </td>
   </tr>
-</table>
+</table> -->
 
 <!-- ================= 6. ANIMATED FULL-STACK & 3D PIPELINE ================= -->
 <p align="center">
-  <img src="./pipeline.svg?v=1" alt="Full-Stack & 3D WebGL Pipeline Architecture" width="100%">
+  <img src="./pipeline.svg?v=1" alt="Full-Stack" width="100%">
 </p>
 
 <!-- ================= 7. GITHUB CONTRIBUTION SNAKE ================= -->
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Hxni786/Hxni786/output/github-contribution-grid-snake-dark.svg" alt="GitHub Contribution Snake" width="100%">
+  <img src="" alt="GitHub Contribution Snake" width="100%">
 </p>
 
 ---
@@ -99,96 +99,85 @@
 <table border="0" width="100%">
   <tr>
     <td align="center" width="50%" valign="top">
-      <a href="https://a-talking-cinematic-portfolio-yfq6.vercel.app/" target="_blank">
-        <img src="https://raw.githubusercontent.com/Hxni786/3d-portfolio-main/main/public/images/preview.png" width="100%" style="border-radius: 10px;" />
-      </a>
+      <!-- <a href="https://a-talking-cinematic-portfolio-yfq6.vercel.app/" target="_blank">
+        <img src="./profile-card.svg" width="100%" style="border-radius: 10px;" />
+      </a> -->
+      <img src="./profile-card.svg" width="100%" style="border-radius: 10px;" />
       <br/><br/>
-      <b>🌐 The 3D Nexus — Cinematic Walking Portfolio</b><br/>
-      <sub>Immersive 60 FPS 3D WebGL environment built with Three.js, custom GLSL shaders, camera lerping, and dynamic spatial audio.</sub>
+      <b>🌐 TRAN VAN PHUC — Digital Developer Portfolio</b><br/>
+    <sub>
+    A personal digital space where code meets creativity — showcasing my projects,
+    technical expertise, and journey as a Full-Stack Web Developer building scalable
+    web applications, backend systems, and AI-powered experiences.</sub>
       <br/><br/>
       <code>Three.js</code> • <code>WebGL</code> • <code>TypeScript</code> • <code>Next.js</code> • <code>Vercel</code>
       <br/><br/>
-      <a href="https://a-talking-cinematic-portfolio-yfq6.vercel.app/" target="_blank">
+      <!-- <a href="https://a-talking-cinematic-portfolio-yfq6.vercel.app/" target="_blank">
         <img src="https://img.shields.io/badge/Demo-Live%20Experience-00ff9d?style=flat-square&logo=vercel&logoColor=black" />
-      </a>
+      </a> -->
+      <img src="https://img.shields.io/badge/Demo-Live%20Experience-00ff9d?style=flat-square&logo=vercel&logoColor=black" />
       &nbsp;
-      <a href="https://github.com/Hxni786/A-Walking-Cinematic-Portfolio" target="_blank">
+      <!-- <a href="https://github.com/Hxni786/A-Walking-Cinematic-Portfolio" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
-      </a>
+      </a> -->
+      <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
     <td align="center" width="50%" valign="top">
-      <a href="https://github.com/Hxni786/E-store2" target="_blank">
+      <!-- <a href="https://github.com/Hxni786/E-store2" target="_blank">
         <img src="https://raw.githubusercontent.com/Hxni786/E-store2/main/docs/ui-preview.png" width="100%" style="border-radius: 10px;" />
-      </a>
+      </a> -->
+      <img src="./ui-preview.svg" width="100%" style="border-radius: 10px;" />
       <br/><br/>
-      <b>📱 Bespoke E-Store 2.0</b><br/>
+      <b>📱 TP E-Store 2.0</b><br/>
       <sub>Luxury mobile commerce platform engineered with fluid gesture interactions, micro-animations, and persistent cart state.</sub>
       <br/><br/>
       <code>React Native</code> • <code>Expo</code> • <code>Node.js</code> • <code>REST API</code> • <code>Stripe</code>
       <br/><br/>
-      <a href="https://github.com/Hxni786/E-store2" target="_blank">
+      <!-- <a href="https://github.com/Hxni786/E-store2" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
-      </a>
+      </a> -->
+        <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
+
   </tr>
   <tr>
     <td align="center" width="50%" valign="top">
-      <a href="https://github.com/Hxni786/Ticket-Booking-App" target="_blank">
+      <!-- <a href="https://github.com/Hxni786/Ticket-Booking-App" target="_blank">
         <img src="https://raw.githubusercontent.com/Hxni786/Ticket-Booking-App/main/mobile/assets/promo1.png" width="100%" style="border-radius: 10px;" />
-      </a>
+      </a> -->
+      <img src="./promo1.png" width="100%" style="border-radius: 10px;" />
       <br/><br/>
-      <b>🎟️ TicketVerse — High-Concurrency Booking Engine</b><br/>
-      <sub>Full-stack event reservation ecosystem featuring real-time seat locks via WebSockets and ACID transactional checkout.</sub>
+      <b>✈️ TripCAI Entertainment — AI Travel & Entertainment</b><br/>
+      <sub>An AI-powered travel and entertainment platform that helps users discover
+        destinations, restaurants, accommodations, and local experiences through
+        personalized recommendations and intelligent itinerary planning, while
+        connecting businesses with potential customers through a digital experience.</sub>
       <br/><br/>
-      <code>React 19</code> • <code>Node.js</code> • <code>WebSockets</code> • <code>MySQL</code> • <code>Redis</code>
+      <code>Next.js</code> • <code>React</code> • <code>TypeScript</code> • <code>FastAPI</code> • <code>PostgreSQL</code> • <code>Docker</code> • <code>AWS S3</code> • <code>OpenAI</code>
       <br/><br/>
-      <a href="https://github.com/Hxni786/Ticket-Booking-App" target="_blank">
+      <!-- <a href="https://github.com/Hxni786/Ticket-Booking-App" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
-      </a>
+      </a> -->
+      <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
     <td align="center" width="50%" valign="top">
-      <a href="https://github.com/Hxni786/Nixh-A-social-Media-App" target="_blank">
-        <img src="https://raw.githubusercontent.com/Hxni786/Nixh-A-social-Media-App/main/docs/assets/mobile_mockup.png" width="100%" style="border-radius: 10px;" />
-      </a>
-      <br/><br/>
-      <b>💬 NIXH Social — Multi-User Directory Engine</b><br/>
-      <sub>Scalable social network platform supporting real-time chat, media processing pipelines, and relation-graph queries.</sub>
-      <br/><br/>
-      <code>React Native</code> • <code>Express.js</code> • <code>MongoDB</code> • <code>Socket.io</code> • <code>JWT</code>
-      <br/><br/>
-      <a href="https://github.com/Hxni786/Nixh-A-social-Media-App" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/Hxni786/A-food-Delivery-App-hxni-express" target="_blank">
-        <img src="https://raw.githubusercontent.com/Hxni786/Hxni-Ecommerce-Store/main/profile_docs/assets/hxni_express_mockup.png" width="100%" style="border-radius: 10px;" />
-      </a>
-      <br/><br/>
-      <b>🍔 hxni Express — Parallax Food Delivery</b><br/>
-      <sub>Real-time order dispatch and courier GPS tracking ecosystem with ultra-smooth parallax UI transitions.</sub>
-      <br/><br/>
-      <code>React.js</code> • <code>Tailwind CSS</code> • <code>Node.js</code> • <code>Google Maps API</code>
-      <br/><br/>
-      <a href="https://github.com/Hxni786/A-food-Delivery-App-hxni-express" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
-      </a>
-    </td>
-    <td align="center" width="50%" valign="top">
-      <a href="https://github.com/Hxni786/Expense-Tracker" target="_blank">
+      <!-- <a href="https://github.com/Hxni786/Expense-Tracker" target="_blank">
         <img src="https://raw.githubusercontent.com/Hxni786/Hxni-Ecommerce-Store/main/profile_docs/assets/hxni_finance_mockup.png" width="100%" style="border-radius: 10px;" />
-      </a>
+      </a> -->
+      <img src="./ai_sales_network.svg" width="100%" style="border-radius: 10px;" />
       <br/><br/>
-      <b>📊 Hxni Finance — Asset &amp; Expense Telemetry</b><br/>
-      <sub>Personal wealth analytics dashboard with dynamic SVG data visualization, budget forecasting, and export tools.</sub>
+      <b>🤖 Multi-Platform AI Sales Network</b><br/>
+      <sub>An AI-powered sales platform for creating intelligent agents, managing customer
+        conversations across multiple social channels, and automating product,
+        order, and delivery workflows. The system combines AI automation with
+        scalable web technologies to streamline the end-to-end sales process.</sub>
       <br/><br/>
-      <code>Next.js</code> • <code>Chart.js</code> • <code>Firebase</code> • <code>Tailwind</code>
+      <code>Next.js</code> • <code>React</code> • <code>PHP</code> • <code>FastAPI</code> • <code>MySQL</code> • <code>Docker</code> • <code>AWS S3</code> • <code>OpenAI</code>
       <br/><br/>
-      <a href="https://github.com/Hxni786/Expense-Tracker" target="_blank">
+      <!-- <a href="https://github.com/Hxni786/Expense-Tracker" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
-      </a>
+      </a> -->
+      <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
   </tr>
 </table>
@@ -245,9 +234,9 @@
 ## 📈 Real-Time GitHub Telemetry & Velocity
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Hxni786&theme=tokyonight&hide_border=true&background=040711&stroke=00f3ff&ring=00ff9d&fire=00ff9d&currStreakNum=00f3ff" alt="GitHub Streak" width="49%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=felix-phuctran&theme=tokyonight&hide_border=true&background=040711&stroke=00f3ff&ring=00ff9d&fire=00ff9d&currStreakNum=00f3ff" alt="GitHub Streak" width="49%" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Hxni786&layout=compact&theme=tokyonight&hide_border=true&bg_color=040711&text_color=94a3b8&title_color=00ff9d" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felix-phuctran&layout=compact&theme=tokyonight&hide_border=true&bg_color=040711&text_color=94a3b8&title_color=00ff9d" alt="Top Languages" width="48%" />
 </p>
 
 ### 🏆 Verified GitHub Achievements
@@ -317,10 +306,10 @@
 
 <table border="0" cellpadding="0" cellspacing="0">
   <tr>
-    <td align="center" valign="middle" width="180">
+    <!-- <td align="center" valign="middle" width="180">
       <b>Scan for 3D Portfolio</b><br/><br/>
       <img src="https://api.qrserver.com/v1/create-qr-code/?size=140x140&data=https://a-talking-cinematic-portfolio-yfq6.vercel.app/&color=00ff9d&bgcolor=020617&margin=8" alt="Portfolio QR Code" width="140" style="border-radius: 8px;" />
-    </td>
+    </td> -->
     <td align="center" valign="middle">
       <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=15&duration=3500&pause=1200&color=00F3FF&background=00000000&center=true&vCenter=true&multiline=false&repeat=true&width=520&height=50&lines=Thank+you+for+inspecting+the+architecture.;Available+for+high-impact+roles+%26+consulting.;Let%27s+build+systems+that+redefine+the+standard." alt="Footer Typing" />
     </td>

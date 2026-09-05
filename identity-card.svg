@@ -1,0 +1,557 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 940 380"
+     width="100%"
+     height="auto">
+
+  <defs>
+
+    <!-- Card background -->
+    <linearGradient id="cardBg"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+      <stop offset="0%" stop-color="#020605"/>
+      <stop offset="50%" stop-color="#06100d"/>
+      <stop offset="100%" stop-color="#020403"/>
+    </linearGradient>
+
+    <!-- Edge glow -->
+    <linearGradient id="edgeGlow"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+      <stop offset="0%" stop-color="#00ff9c"/>
+      <stop offset="50%" stop-color="#00c8ff"/>
+      <stop offset="100%" stop-color="#00ff9c"/>
+    </linearGradient>
+
+    <!-- Avatar background -->
+    <linearGradient id="avatarBackdrop"
+                    x1="0"
+                    y1="0"
+                    x2="1"
+                    y2="1">
+      <stop offset="0%" stop-color="#03120e"/>
+      <stop offset="100%" stop-color="#020605"/>
+    </linearGradient>
+
+    <!-- Grid -->
+    <pattern id="cardGrid"
+             width="20"
+             height="20"
+             patternUnits="userSpaceOnUse">
+      <path d="M 20 0 L 0 0 0 20"
+            fill="none"
+            stroke="#00ff9c"
+            stroke-width="0.35"
+            opacity="0.08"/>
+    </pattern>
+
+    <!-- Avatar clipping -->
+    <clipPath id="avatarClip">
+      <rect
+        x="0"
+        y="0"
+        width="230"
+        height="260"
+        rx="8"/>
+    </clipPath>
+
+    <!-- Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3"
+                      result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <style>
+      .title {
+        font-family: monospace;
+        fill: #00ff9c;
+        letter-spacing: 2px;
+      }
+
+      .label {
+        font-family: monospace;
+        fill: #5c7770;
+        font-size: 10px;
+        letter-spacing: 1.5px;
+      }
+
+      .value {
+        font-family: monospace;
+        fill: #d7fff3;
+        font-size: 15px;
+        letter-spacing: 1px;
+      }
+
+      .small {
+        font-family: monospace;
+        fill: #00c8ff;
+        font-size: 9px;
+        letter-spacing: 1px;
+      }
+
+      .sec-tag {
+        font-family: monospace;
+        fill: #00ff9c;
+        letter-spacing: 1px;
+      }
+
+      .sweep {
+        animation: sweepLine 3s linear infinite;
+      }
+
+      @keyframes sweepLine {
+        0% {
+          transform: translateY(0);
+          opacity: 0;
+        }
+
+        10% {
+          opacity: 1;
+        }
+
+        90% {
+          opacity: 1;
+        }
+
+        100% {
+          transform: translateY(230px);
+          opacity: 0;
+        }
+      }
+
+      .pulse {
+        animation: pulseActive 2s ease-in-out infinite;
+      }
+
+      @keyframes pulseActive {
+        0%, 100% {
+          opacity: 0.4;
+        }
+
+        50% {
+          opacity: 1;
+        }
+      }
+    </style>
+
+  </defs>
+
+
+  <!-- ===================================================== -->
+  <!-- CARD -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="8"
+    y="8"
+    width="924"
+    height="364"
+    rx="14"
+    fill="url(#cardBg)"
+    stroke="url(#edgeGlow)"
+    stroke-width="1.5"/>
+
+  <!-- Grid overlay -->
+
+  <rect
+    x="10"
+    y="10"
+    width="920"
+    height="360"
+    rx="12"
+    fill="url(#cardGrid)"/>
+
+
+  <!-- ===================================================== -->
+  <!-- CORNER BRACKETS -->
+  <!-- ===================================================== -->
+
+  <g
+    fill="none"
+    stroke="#00ff9c"
+    stroke-width="2">
+
+    <path d="M 20 45 V 20 H 45"/>
+    <path d="M 895 20 H 920 V 45"/>
+    <path d="M 20 335 V 360 H 45"/>
+    <path d="M 895 360 H 920 V 335"/>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- HEADER -->
+  <!-- ===================================================== -->
+
+  <rect
+    x="20"
+    y="20"
+    width="900"
+    height="32"
+    rx="5"
+    fill="#020403"
+    stroke="#00ff9c"
+    stroke-opacity="0.35"/>
+
+  <text
+    x="35"
+    y="41"
+    class="title"
+    font-size="11">
+    CLASSIFIED DEVELOPER IDENTITY CARD // LEVEL 5 ACCESS
+  </text>
+
+  <text
+    x="900"
+    y="41"
+    text-anchor="end"
+    class="small">
+    SYSTEM // ONLINE
+  </text>
+
+
+  <!-- ===================================================== -->
+  <!-- AVATAR FRAME -->
+  <!-- ===================================================== -->
+
+  <g transform="translate(36, 68)">
+
+    <!-- Avatar panel -->
+
+    <rect
+      x="0"
+      y="0"
+      width="230"
+      height="260"
+      rx="8"
+      fill="url(#avatarBackdrop)"
+      stroke="#00ff9c"
+      stroke-width="1.2"
+      stroke-opacity="0.6"/>
+
+
+    <!-- REAL AVATAR IMAGE -->
+
+    <image
+      x="0"
+      y="0"
+      width="230"
+      height="260"
+      href="avatar.png"
+      preserveAspectRatio="xMidYMid slice"
+      clip-path="url(#avatarClip)"/>
+
+
+    <!-- Dark overlay -->
+
+    <rect
+      x="0"
+      y="0"
+      width="230"
+      height="260"
+      rx="8"
+      fill="#00100b"
+      opacity="0.18"
+      pointer-events="none"/>
+
+
+    <!-- HUD circle -->
+
+    <circle
+      cx="115"
+      cy="120"
+      r="75"
+      fill="none"
+      stroke="#00c8ff"
+      stroke-width="0.8"
+      stroke-dasharray="4,6"
+      opacity="0.45"/>
+
+
+    <!-- Horizontal scanner -->
+
+    <line
+      x1="25"
+      y1="120"
+      x2="205"
+      y2="120"
+      stroke="#00ff9c"
+      stroke-width="0.8"
+      stroke-dasharray="2,4"
+      opacity="0.35"/>
+
+
+    <!-- Vertical scanner -->
+
+    <line
+      x1="115"
+      y1="30"
+      x2="115"
+      y2="210"
+      stroke="#00ff9c"
+      stroke-width="0.8"
+      stroke-dasharray="2,4"
+      opacity="0.35"/>
+
+
+    <!-- Scanning line -->
+
+    <line
+      x1="2"
+      y1="0"
+      x2="228"
+      y2="0"
+      stroke="#00ff9c"
+      stroke-width="1.5"
+      class="sweep"
+      filter="url(#glow)"/>
+
+
+    <!-- Avatar corner markers -->
+
+    <g
+      fill="none"
+      stroke="#00ff9c"
+      stroke-width="1.5">
+
+      <path d="M 10 30 V 10 H 30"/>
+      <path d="M 200 10 H 220 V 30"/>
+      <path d="M 10 230 V 250 H 30"/>
+      <path d="M 200 250 H 220 V 230"/>
+
+    </g>
+
+
+    <!-- Bottom ID -->
+
+    <rect
+      x="0"
+      y="232"
+      width="230"
+      height="28"
+      rx="4"
+      fill="#020403"
+      fill-opacity="0.9"/>
+
+    <text
+      x="115"
+      y="250"
+      text-anchor="middle"
+      class="sec-tag"
+      font-size="9">
+      ID: CIPHER // BIOMETRIC VERIFIED
+    </text>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- INFORMATION -->
+  <!-- ===================================================== -->
+
+  <g transform="translate(300, 78)">
+
+    <!-- NAME -->
+
+    <text
+      x="0"
+      y="0"
+      class="label">
+      NAME
+    </text>
+
+    <text
+      x="0"
+      y="23"
+      class="value"
+      font-size="24">
+      PHUCDUT
+    </text>
+
+
+    <!-- ROLE -->
+
+    <text
+      x="0"
+      y="58"
+      class="label">
+      ROLE
+    </text>
+
+    <text
+      x="0"
+      y="80"
+      class="value">
+      CREATIVE DEVELOPER
+    </text>
+
+
+    <!-- SPECIALIZATION -->
+
+    <text
+      x="0"
+      y="115"
+      class="label">
+      SPECIALIZATION
+    </text>
+
+    <text
+      x="0"
+      y="137"
+      class="value">
+      FULL-STACK
+    </text>
+
+
+    <!-- MODE -->
+
+    <text
+      x="0"
+      y="172"
+      class="label">
+      MODE
+    </text>
+
+    <text
+      x="0"
+      y="194"
+      class="value">
+      BUILD • BREAK • REBUILD
+    </text>
+
+
+    <!-- PHILOSOPHY -->
+
+    <text
+      x="0"
+      y="229"
+      class="label">
+      PHILOSOPHY
+    </text>
+
+    <text
+      x="0"
+      y="251"
+      class="value"
+      font-size="13">
+      MAKE THE IMPOSSIBLE FEEL INTERACTIVE
+    </text>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- SYSTEM STATUS -->
+  <!-- ===================================================== -->
+
+  <g transform="translate(700, 78)">
+
+    <text
+      x="0"
+      y="0"
+      class="label">
+      SYSTEM STATUS
+    </text>
+
+    <circle
+      cx="8"
+      cy="25"
+      r="5"
+      fill="#00ff9c"
+      class="pulse"
+      filter="url(#glow)"/>
+
+    <text
+      x="22"
+      y="29"
+      class="value"
+      font-size="12">
+      ACTIVE
+    </text>
+
+
+    <text
+      x="0"
+      y="70"
+      class="label">
+      ACCESS KEY
+    </text>
+
+    <text
+      x="0"
+      y="94"
+      class="small"
+      font-size="13">
+      0x48584E49
+    </text>
+
+
+    <text
+      x="0"
+      y="135"
+      class="label">
+      NETWORK
+    </text>
+
+    <text
+      x="0"
+      y="158"
+      class="small">
+      SECURE // ENCRYPTED
+    </text>
+
+
+    <text
+      x="0"
+      y="200"
+      class="label">
+      CLEARANCE
+    </text>
+
+    <text
+      x="0"
+      y="223"
+      class="small">
+      LEVEL 5
+    </text>
+
+  </g>
+
+
+  <!-- ===================================================== -->
+  <!-- FOOTER -->
+  <!-- ===================================================== -->
+
+  <line
+    x1="300"
+    y1="355"
+    x2="900"
+    y2="355"
+    stroke="#00ff9c"
+    stroke-width="0.7"
+    opacity="0.35"/>
+
+  <text
+    x="300"
+    y="345"
+    class="small">
+    PHUCDUT // THE CIPHER STACK
+  </text>
+
+  <text
+    x="900"
+    y="345"
+    text-anchor="end"
+    class="small">
+    AUTHORIZED PERSONNEL ONLY
+  </text>
+
+</svg>

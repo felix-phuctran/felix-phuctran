@@ -1,4 +1,4 @@
-﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 350" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 350" width="100%" height="100%">
   <defs>
     <!-- Pipeline Gradients -->
     <linearGradient id="pipe-bg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -77,7 +77,7 @@
   <!-- ================= TOP HEADER BAR ================= -->
   <g transform="translate(35, 36)">
     <circle class="node-beacon" cx="0" cy="0" r="5" fill="#00ff9d" filter="url(#pipe-glow)"/>
-    <text class="txt-sans" font-size="13" font-weight="800" fill="#94a3b8" x="16" y="4" letter-spacing="1.5">FULL-STACK &amp; 3D GRAPHICS PIPELINE ARCHITECTURE</text>
+    <text class="txt-sans" font-size="13" font-weight="800" fill="#94a3b8" x="16" y="4" letter-spacing="1.5">FULL-STACK  GRAPHICS PIPELINE ARCHITECTURE</text>
     <text class="txt-mono" font-size="10" font-weight="700" fill="#00f3ff" x="520" y="4" letter-spacing="1.5">[ REAL-TIME DATA STREAM // LATENCY &lt; 20ms ]</text>
   </g>
 
@@ -154,32 +154,125 @@
     </g>
   </g>
 
-  <!-- ================= NODE 2: 3D WEBGL SHADER ENGINE ================= -->
+  <!-- ================= NODE 2: AI & INTELLIGENT SERVICES ================= -->
   <g transform="translate(255, 80)">
-    <rect width="180" height="200" rx="14" fill="url(#node-box-1)" stroke="#00ff9d" stroke-width="1.5" filter="url(#pipe-glow)"/>
-    <rect x="15" y="15" width="22" height="22" rx="6" fill="#022c22"/>
-    <text class="txt-mono" font-size="12" font-weight="800" fill="#00ff9d" x="20" y="31">3D</text>
-    
-    <text class="txt-mono" font-size="9" font-weight="700" fill="#64748b" x="45" y="24" letter-spacing="1">LAYER 02</text>
-    <text class="txt-sans" font-size="12" font-weight="800" fill="#ffffff" x="45" y="38">3D WEBGL ENGINE</text>
+    <rect
+        width="180"
+        height="200"
+        rx="14"
+        fill="url(#node-box-1)"
+        stroke="#a855f7"
+        stroke-width="1.5"
+        filter="url(#pipe-glow)"
+    />
 
-    <line x1="15" y1="52" x2="165" y2="52" stroke="#1e293b" stroke-width="1"/>
+    <rect
+        x="15"
+        y="15"
+        width="22"
+        height="22"
+        rx="6"
+        fill="#2e1065"
+    />
+
+    <text
+        class="txt-mono"
+        font-size="11"
+        font-weight="800"
+        fill="#a855f7"
+        x="20"
+        y="31"
+    >AI</text>
+
+    <text
+        class="txt-mono"
+        font-size="9"
+        font-weight="700"
+        fill="#64748b"
+        x="45"
+        y="24"
+        letter-spacing="1"
+    >LAYER 02</text>
+
+    <text
+        class="txt-sans"
+        font-size="12"
+        font-weight="800"
+        fill="#ffffff"
+        x="45"
+        y="38"
+    >AI SERVICES</text>
+
+    <line
+        x1="15"
+        y1="52"
+        x2="165"
+        y2="52"
+        stroke="#1e293b"
+        stroke-width="1"
+    />
 
     <!-- Spec Pills -->
-    <g transform="translate(15, 66)" class="txt-mono" font-size="9.5" font-weight="600">
-      <rect width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <text fill="#00ff9d" x="8" y="15">Three.js / Canvas</text>
+    <g
+        transform="translate(15, 66)"
+        class="txt-mono"
+        font-size="9.5"
+        font-weight="600"
+    >
 
-      <rect y="30" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <text fill="#38bdf8" x="8" y="45">GLSL Custom Shaders</text>
+        <rect
+        width="150"
+        height="22"
+        rx="4"
+        fill="#0f172a"
+        stroke="#1e293b"
+        stroke-width="1"
+        />
+        <text fill="#a855f7" x="8" y="15">
+        OpenAI / LLM APIs
+        </text>
 
-      <rect y="60" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
-      <text fill="#94a3b8" x="8" y="75">GLTF / Physics Engine</text>
+        <rect
+        y="30"
+        width="150"
+        height="22"
+        rx="4"
+        fill="#0f172a"
+        stroke="#1e293b"
+        stroke-width="1"
+        />
+        <text fill="#38bdf8" x="8" y="45">
+        AI Agents / RAG
+        </text>
 
-      <rect y="90" width="150" height="22" rx="4" fill="#022c22" stroke="#00ff9d" stroke-width="0.5"/>
-      <text fill="#00ff9d" x="8" y="105">60 FPS // GPU SYNC</text>
+        <rect
+        y="60"
+        width="150"
+        height="22"
+        rx="4"
+        fill="#0f172a"
+        stroke="#1e293b"
+        stroke-width="1"
+        />
+        <text fill="#94a3b8" x="8" y="75">
+        Recommendations
+        </text>
+
+        <rect
+        y="90"
+        width="150"
+        height="22"
+        rx="4"
+        fill="#2e1065"
+        stroke="#a855f7"
+        stroke-width="0.5"
+        />
+        <text fill="#c084fc" x="8" y="105">
+        AI // AUTOMATION
+        </text>
+
     </g>
-  </g>
+    </g>
 
   <!-- ================= NODE 3: HIGH-THROUGHPUT GATEWAY ================= -->
   <g transform="translate(485, 80)">
