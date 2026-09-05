@@ -245,7 +245,7 @@
       y="0"
       width="230"
       height="260"
-      href="avatar.png"
+      href="./avatar.png"
       preserveAspectRatio="xMidYMid slice"
       clip-path="url(#avatarClip)"/>
 

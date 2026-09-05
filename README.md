@@ -15,7 +15,7 @@
 
 <!-- ================= 2. LIVE SYSTEM TELEMETRY PILLS ================= -->
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=Hxni786&style=for-the-badge&color=0284c7&label=SYS_PROFILE_VIEWS&labelColor=020617" alt="Profile Views" />
+  <img src="https://komarev.com/ghpvc/?username=felix-phuctran&style=for-the-badge&color=0284c7&label=SYS_PROFILE_VIEWS&labelColor=020617" alt="Profile Views" />
   &nbsp;
   <img src="https://img.shields.io/badge/CLEARANCE-LEVEL--07%20ROOT-00ff9d?style=for-the-badge&labelColor=020617&logo=superuser&logoColor=00ff9d" alt="Clearance" />
   &nbsp;
@@ -33,20 +33,20 @@
 
 <!-- ================= 4. COMMAND CENTER HUD BANNER ================= -->
 <!-- <p align="center">
-  <img src="./banner.svg?v=1" alt="Developer Command Center HUD" width="100%">
+  <img src="./identity-card.svg?v=1" alt="Developer Command Center HUD" width="100%">
 </p> -->
 
 <!-- ================= 5. 3D LANYARD & PRODUCTION STATS ================= -->
-<!-- <table border="0" width="100%" cellpadding="0" cellspacing="0">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
   <tr>
-    <td width="42%" align="center" valign="top">
+    <td width="50%" align="center" valign="middle">
       <img src="./lanyard.svg?v=1" alt="Staff Architect ID Badge" width="100%">
     </td>
-    <td width="58%" align="center" valign="top">
-      <img src="./stats.svg?v=1" alt="Production Telemetry & Radar" width="100%">
+    <td width="50%" align="center" valign="middle">
+      <img src="./identity-card.svg?v=1" alt="Production Telemetry & Radar" width="100%">
     </td>
   </tr>
-</table> -->
+</table>
 
 <!-- ================= 6. ANIMATED FULL-STACK & 3D PIPELINE ================= -->
 <p align="center">
@@ -117,14 +117,14 @@
       </a> -->
       <img src="https://img.shields.io/badge/Demo-Live%20Experience-00ff9d?style=flat-square&logo=vercel&logoColor=black" />
       &nbsp;
-      <!-- <a href="https://github.com/Hxni786/A-Walking-Cinematic-Portfolio" target="_blank">
+      <!-- <a href="https://github.com/felix-phuctran/A-Walking-Cinematic-Portfolio" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
       </a> -->
       <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
     <td align="center" width="50%" valign="top">
-      <!-- <a href="https://github.com/Hxni786/E-store2" target="_blank">
-        <img src="https://raw.githubusercontent.com/Hxni786/E-store2/main/docs/ui-preview.png" width="100%" style="border-radius: 10px;" />
+      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
+        <img src="https://raw.githubusercontent.com/felix-phuctran/E-store2/main/docs/ui-preview.png" width="100%" style="border-radius: 10px;" />
       </a> -->
       <img src="./ui-preview.svg" width="100%" style="border-radius: 10px;" />
       <br/><br/>
@@ -133,7 +133,7 @@
       <br/><br/>
       <code>React Native</code> • <code>Expo</code> • <code>Node.js</code> • <code>REST API</code> • <code>Stripe</code>
       <br/><br/>
-      <!-- <a href="https://github.com/Hxni786/E-store2" target="_blank">
+      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
       </a> -->
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
@@ -142,8 +142,8 @@
   </tr>
   <tr>
     <td align="center" width="50%" valign="top">
-      <!-- <a href="https://github.com/Hxni786/Ticket-Booking-App" target="_blank">
-        <img src="https://raw.githubusercontent.com/Hxni786/Ticket-Booking-App/main/mobile/assets/promo1.png" width="100%" style="border-radius: 10px;" />
+      <!-- <a href="https://github.com/felix-phuctran/Ticket-Booking-App" target="_blank">
+        <img src="https://raw.githubusercontent.com/felix-phuctran/Ticket-Booking-App/main/mobile/assets/promo1.png" width="100%" style="border-radius: 10px;" />
       </a> -->
       <img src="./promo1.png" width="100%" style="border-radius: 10px;" />
       <br/><br/>
@@ -155,16 +155,16 @@
       <br/><br/>
       <code>Next.js</code> • <code>React</code> • <code>TypeScript</code> • <code>FastAPI</code> • <code>PostgreSQL</code> • <code>Docker</code> • <code>AWS S3</code> • <code>OpenAI</code>
       <br/><br/>
-      <!-- <a href="https://github.com/Hxni786/Ticket-Booking-App" target="_blank">
+      <!-- <a href="https://github.com/felix-phuctran/Ticket-Booking-App" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
       </a> -->
       <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
     <td align="center" width="50%" valign="top">
-      <!-- <a href="https://github.com/Hxni786/Expense-Tracker" target="_blank">
-        <img src="https://raw.githubusercontent.com/Hxni786/Hxni-Ecommerce-Store/main/profile_docs/assets/hxni_finance_mockup.png" width="100%" style="border-radius: 10px;" />
+      <!-- <a href="https://github.com/felix-phuctran/Expense-Tracker" target="_blank">
+        <img src="https://raw.githubusercontent.com/felix-phuctran/Hxni-Ecommerce-Store/main/profile_docs/assets/hxni_finance_mockup.png" width="100%" style="border-radius: 10px;" />
       </a> -->
-      <img src="./ai_sales_network.svg" width="100%" style="border-radius: 10px;" />
+      <img src="./ai-sales-network" width="100%" style="border-radius: 10px;" />
       <br/><br/>
       <b>🤖 Multi-Platform AI Sales Network</b><br/>
       <sub>An AI-powered sales platform for creating intelligent agents, managing customer
@@ -174,7 +174,7 @@
       <br/><br/>
       <code>Next.js</code> • <code>React</code> • <code>PHP</code> • <code>FastAPI</code> • <code>MySQL</code> • <code>Docker</code> • <code>AWS S3</code> • <code>OpenAI</code>
       <br/><br/>
-      <!-- <a href="https://github.com/Hxni786/Expense-Tracker" target="_blank">
+      <!-- <a href="https://github.com/felix-phuctran/Expense-Tracker" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
       </a> -->
       <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
@@ -297,7 +297,7 @@
     <img src="https://img.shields.io/badge/Email-Direct%20Inquiry-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=020617" />
   </a>
   &nbsp;
-  <a href="https://github.com/Hxni786" target="_blank">
+  <a href="https://github.com/felix-phuctran" target="_blank">
     <img src="https://img.shields.io/badge/GitHub-Follow%20Engineering-ffffff?style=for-the-badge&logo=github&logoColor=black&labelColor=020617" />
   </a>
 </p>
