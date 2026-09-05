@@ -1,0 +1,272 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1160 350" width="100%" height="100%">
+  <defs>
+    <!-- Pipeline Gradients -->
+    <linearGradient id="pipe-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080e1e" stop-opacity="0.95"/>
+      <stop offset="50%" stop-color="#040711" stop-opacity="0.98"/>
+      <stop offset="100%" stop-color="#02040a" stop-opacity="0.98"/>
+    </linearGradient>
+
+    <linearGradient id="pipe-glass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f3ff" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#00ff9d" stop-opacity="0.3"/>
+    </linearGradient>
+
+    <linearGradient id="wire-grad-1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00f3ff"/>
+      <stop offset="100%" stop-color="#00ff9d"/>
+    </linearGradient>
+
+    <linearGradient id="wire-grad-2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00ff9d"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+
+    <!-- Node Gradients -->
+    <linearGradient id="node-box-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1726"/>
+      <stop offset="100%" stop-color="#070d18"/>
+    </linearGradient>
+
+    <!-- Glow Filters -->
+    <filter id="pipe-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="node-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Fonts -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700;800&amp;family=Inter:wght@600;700;800&amp;display=swap');
+      .txt-sans { font-family: 'Inter', system-ui, -apple-system, sans-serif; }
+      .txt-mono { font-family: 'JetBrains Mono', monospace; }
+
+      @keyframes pulse-node {
+        0%, 100% { opacity: 0.5; }
+        50% { opacity: 1; }
+      }
+      .node-beacon { animation: pulse-node 2s ease-in-out infinite; }
+    </style>
+  </defs>
+
+  <!-- Base Plate Frame -->
+  <rect width="1160" height="350" rx="20" fill="url(#pipe-bg)" stroke="url(#pipe-glass)" stroke-width="2" filter="url(#pipe-glow)"/>
+
+  <!-- Subtle Circuit Grid Backdrop -->
+  <g opacity="0.03" stroke="#00f3ff" stroke-width="1">
+    <line x1="0" y1="50" x2="1160" y2="50"/>
+    <line x1="0" y1="180" x2="1160" y2="180"/>
+    <line x1="0" y1="300" x2="1160" y2="300"/>
+    <line x1="240" y1="0" x2="240" y2="350"/>
+    <line x1="470" y1="0" x2="470" y2="350"/>
+    <line x1="700" y1="0" x2="700" y2="350"/>
+    <line x1="930" y1="0" x2="930" y2="350"/>
+  </g>
+
+  <!-- ================= TOP HEADER BAR ================= -->
+  <g transform="translate(35, 36)">
+    <circle class="node-beacon" cx="0" cy="0" r="5" fill="#00ff9d" filter="url(#pipe-glow)"/>
+    <text class="txt-sans" font-size="13" font-weight="800" fill="#94a3b8" x="16" y="4" letter-spacing="1.5">FULL-STACK &amp; 3D GRAPHICS PIPELINE ARCHITECTURE</text>
+    <text class="txt-mono" font-size="10" font-weight="700" fill="#00f3ff" x="520" y="4" letter-spacing="1.5">[ REAL-TIME DATA STREAM // LATENCY &lt; 20ms ]</text>
+  </g>
+
+  <!-- ================= BUS CONNECTING WIRES ================= -->
+  <g stroke="#1e293b" stroke-width="3" fill="none">
+    <!-- Horizontal trunk line -->
+    <path id="path1" d="M 205,180 L 255,180"/>
+    <path id="path2" d="M 435,180 L 485,180"/>
+    <path id="path3" d="M 665,180 L 715,180"/>
+    <path id="path4" d="M 895,180 L 945,180"/>
+  </g>
+
+  <!-- Active Glowing Signal Paths (Overlay with Dash) -->
+  <g stroke="url(#wire-grad-1)" stroke-width="2" fill="none" opacity="0.8">
+    <line x1="205" y1="180" x2="255" y2="180"/>
+    <line x1="435" y1="180" x2="485" y2="180"/>
+    <line x1="665" y1="180" x2="715" y2="180"/>
+    <line x1="895" y1="180" x2="945" y2="180"/>
+  </g>
+
+  <!-- ================= ANIMATED TRAVELING DATA PACKETS ================= -->
+  <!-- Forward Data Packets (Cyan) -->
+  <circle r="4.5" fill="#00f3ff" filter="url(#pipe-glow)">
+    <animateMotion path="M 205,180 L 255,180" dur="1.2s" repeatCount="indefinite" />
+  </circle>
+  <circle r="4.5" fill="#00ff9d" filter="url(#pipe-glow)">
+    <animateMotion path="M 435,180 L 485,180" dur="1.2s" begin="0.3s" repeatCount="indefinite" />
+  </circle>
+  <circle r="4.5" fill="#00f3ff" filter="url(#pipe-glow)">
+    <animateMotion path="M 665,180 L 715,180" dur="1.2s" begin="0.6s" repeatCount="indefinite" />
+  </circle>
+  <circle r="4.5" fill="#00ff9d" filter="url(#pipe-glow)">
+    <animateMotion path="M 895,180 L 945,180" dur="1.2s" begin="0.9s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Reverse Return ACK Packets (Emerald) -->
+  <circle r="3.5" fill="#ffffff" filter="url(#pipe-glow)">
+    <animateMotion path="M 945,180 L 895,180" dur="1.2s" begin="0.2s" repeatCount="indefinite" />
+  </circle>
+  <circle r="3.5" fill="#00ff9d" filter="url(#pipe-glow)">
+    <animateMotion path="M 715,180 L 665,180" dur="1.2s" begin="0.5s" repeatCount="indefinite" />
+  </circle>
+  <circle r="3.5" fill="#00f3ff" filter="url(#pipe-glow)">
+    <animateMotion path="M 485,180 L 435,180" dur="1.2s" begin="0.8s" repeatCount="indefinite" />
+  </circle>
+  <circle r="3.5" fill="#38bdf8" filter="url(#pipe-glow)">
+    <animateMotion path="M 255,180 L 205,180" dur="1.2s" begin="1.1s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- ================= NODE 1: CLIENT EDGE ================= -->
+  <g transform="translate(35, 80)">
+    <rect width="170" height="200" rx="14" fill="url(#node-box-1)" stroke="#00f3ff" stroke-width="1.5" filter="url(#pipe-glow)"/>
+    <rect x="15" y="15" width="22" height="22" rx="6" fill="#032b30"/>
+    <text class="txt-mono" font-size="12" font-weight="800" fill="#00f3ff" x="22" y="31">&lt;&gt;</text>
+    
+    <text class="txt-mono" font-size="9" font-weight="700" fill="#64748b" x="45" y="24" letter-spacing="1">LAYER 01</text>
+    <text class="txt-sans" font-size="12" font-weight="800" fill="#ffffff" x="45" y="38">CLIENT EDGE</text>
+
+    <line x1="15" y1="52" x2="155" y2="52" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Spec Pills -->
+    <g transform="translate(15, 66)" class="txt-mono" font-size="9.5" font-weight="600">
+      <rect width="140" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#38bdf8" x="8" y="15">React 19 / Next 14</text>
+
+      <rect y="30" width="140" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#00f3ff" x="8" y="45">React Native / Expo</text>
+
+      <rect y="60" width="140" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#94a3b8" x="8" y="75">Tailwind &amp; Motion</text>
+
+      <rect y="90" width="140" height="22" rx="4" fill="#022c22" stroke="#00ff9d" stroke-width="0.5"/>
+      <text fill="#00ff9d" x="8" y="105">STATUS: SSR &amp; HYBRID</text>
+    </g>
+  </g>
+
+  <!-- ================= NODE 2: 3D WEBGL SHADER ENGINE ================= -->
+  <g transform="translate(255, 80)">
+    <rect width="180" height="200" rx="14" fill="url(#node-box-1)" stroke="#00ff9d" stroke-width="1.5" filter="url(#pipe-glow)"/>
+    <rect x="15" y="15" width="22" height="22" rx="6" fill="#022c22"/>
+    <text class="txt-mono" font-size="12" font-weight="800" fill="#00ff9d" x="20" y="31">3D</text>
+    
+    <text class="txt-mono" font-size="9" font-weight="700" fill="#64748b" x="45" y="24" letter-spacing="1">LAYER 02</text>
+    <text class="txt-sans" font-size="12" font-weight="800" fill="#ffffff" x="45" y="38">3D WEBGL ENGINE</text>
+
+    <line x1="15" y1="52" x2="165" y2="52" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Spec Pills -->
+    <g transform="translate(15, 66)" class="txt-mono" font-size="9.5" font-weight="600">
+      <rect width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#00ff9d" x="8" y="15">Three.js / Canvas</text>
+
+      <rect y="30" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#38bdf8" x="8" y="45">GLSL Custom Shaders</text>
+
+      <rect y="60" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#94a3b8" x="8" y="75">GLTF / Physics Engine</text>
+
+      <rect y="90" width="150" height="22" rx="4" fill="#022c22" stroke="#00ff9d" stroke-width="0.5"/>
+      <text fill="#00ff9d" x="8" y="105">60 FPS // GPU SYNC</text>
+    </g>
+  </g>
+
+  <!-- ================= NODE 3: HIGH-THROUGHPUT GATEWAY ================= -->
+  <g transform="translate(485, 80)">
+    <rect width="180" height="200" rx="14" fill="url(#node-box-1)" stroke="#38bdf8" stroke-width="1.5" filter="url(#pipe-glow)"/>
+    <rect x="15" y="15" width="22" height="22" rx="6" fill="#082f49"/>
+    <text class="txt-mono" font-size="12" font-weight="800" fill="#38bdf8" x="20" y="31">GW</text>
+    
+    <text class="txt-mono" font-size="9" font-weight="700" fill="#64748b" x="48" y="24" letter-spacing="1">LAYER 03</text>
+    <text class="txt-sans" font-size="12" font-weight="800" fill="#ffffff" x="48" y="38">API GATEWAY</text>
+
+    <line x1="15" y1="52" x2="165" y2="52" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Spec Pills -->
+    <g transform="translate(15, 66)" class="txt-mono" font-size="9.5" font-weight="600">
+      <rect width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#38bdf8" x="8" y="15">RESTful &amp; GraphQL</text>
+
+      <rect y="30" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#00ff9d" x="8" y="45">WebSockets (Realtime)</text>
+
+      <rect y="60" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#94a3b8" x="8" y="75">JWT / CORS / Auth</text>
+
+      <rect y="90" width="150" height="22" rx="4" fill="#082f49" stroke="#38bdf8" stroke-width="0.5"/>
+      <text fill="#38bdf8" x="8" y="105">EDGE LOAD BALANCED</text>
+    </g>
+  </g>
+
+  <!-- ================= NODE 4: DISTRIBUTED SERVICES ================= -->
+  <g transform="translate(715, 80)">
+    <rect width="180" height="200" rx="14" fill="url(#node-box-1)" stroke="#00f3ff" stroke-width="1.5" filter="url(#pipe-glow)"/>
+    <rect x="15" y="15" width="22" height="22" rx="6" fill="#082f49"/>
+    <text class="txt-mono" font-size="12" font-weight="800" fill="#00f3ff" x="22" y="31">JS</text>
+    
+    <text class="txt-mono" font-size="9" font-weight="700" fill="#64748b" x="48" y="24" letter-spacing="1">LAYER 04</text>
+    <text class="txt-sans" font-size="12" font-weight="800" fill="#ffffff" x="48" y="38">BACKEND CORE</text>
+
+    <line x1="15" y1="52" x2="165" y2="52" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Spec Pills -->
+    <g transform="translate(15, 66)" class="txt-mono" font-size="9.5" font-weight="600">
+      <rect width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#00f3ff" x="8" y="15">Node.js / Express</text>
+
+      <rect y="30" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#38bdf8" x="8" y="45">NestJS Architecture</text>
+
+      <rect y="60" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#94a3b8" x="8" y="75">Async Event Queues</text>
+
+      <rect y="90" width="150" height="22" rx="4" fill="#032b30" stroke="#00f3ff" stroke-width="0.5"/>
+      <text fill="#00f3ff" x="8" y="105">FAULT-TOLERANT</text>
+    </g>
+  </g>
+
+  <!-- ================= NODE 5: PERSISTENCE & CACHE ================= -->
+  <g transform="translate(945, 80)">
+    <rect width="180" height="200" rx="14" fill="url(#node-box-1)" stroke="#00ff9d" stroke-width="1.5" filter="url(#pipe-glow)"/>
+    <rect x="15" y="15" width="22" height="22" rx="6" fill="#022c22"/>
+    <text class="txt-mono" font-size="12" font-weight="800" fill="#00ff9d" x="21" y="31">DB</text>
+    
+    <text class="txt-mono" font-size="9" font-weight="700" fill="#64748b" x="48" y="24" letter-spacing="1">LAYER 05</text>
+    <text class="txt-sans" font-size="12" font-weight="800" fill="#ffffff" x="48" y="38">DATA &amp; CACHING</text>
+
+    <line x1="15" y1="52" x2="165" y2="52" stroke="#1e293b" stroke-width="1"/>
+
+    <!-- Spec Pills -->
+    <g transform="translate(15, 66)" class="txt-mono" font-size="9.5" font-weight="600">
+      <rect width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#00ff9d" x="8" y="15">PostgreSQL &amp; MySQL</text>
+
+      <rect y="30" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#38bdf8" x="8" y="45">Redis In-Memory Cache</text>
+
+      <rect y="60" width="150" height="22" rx="4" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <text fill="#94a3b8" x="8" y="75">Firebase / Cloud Store</text>
+
+      <rect y="90" width="150" height="22" rx="4" fill="#022c22" stroke="#00ff9d" stroke-width="0.5"/>
+      <text fill="#00ff9d" x="8" y="105">ACID // SUB-MS QUERY</text>
+    </g>
+  </g>
+
+  <!-- ================= BOTTOM RUNTIME TELEMETRY ================= -->
+  <g transform="translate(35, 318)" class="txt-mono" font-size="10" font-weight="700">
+    <text fill="#64748b">ARCHITECTURE: <tspan fill="#ffffff">MICROSERVICES &amp; 3D CLIENTS</tspan></text>
+    <text x="320" fill="#64748b">TOTAL THROUGHPUT: <tspan fill="#00ff9d">OPTIMIZED FOR SCALE</tspan></text>
+    <text x="680" fill="#64748b">DEPLOYMENT: <tspan fill="#00f3ff">CI/CD DOCKER &amp; VERCEL</tspan></text>
+    <text x="960" fill="#64748b">UPTIME: <tspan fill="#00ff9d">99.99%</tspan></text>
+  </g>
+</svg>
