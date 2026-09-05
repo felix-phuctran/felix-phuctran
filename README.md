@@ -15,21 +15,8 @@
 
 <img
   width="100%"
-  src="https://capsule-render.vercel.app/api?type=waving
-  &color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d
-  &height=280
-  &section=header
-  &text=TRAN%20VAN%20PHUC
-  &fontSize=64
-  &fontColor=ffffff
-  &fontAlignY=38
-  &fontAlign=50
-  &desc=Full-Stack%20Web%20Developer%20%7C%20AI%20%26%20Backend%20Engineer
-  &descAlignY=58
-  &descSize=16
-  &descFontColor=00f3ff
-  &stroke=00f3ff
-  &strokeWidth=1"
+  src="https://capsule-render.vercel.app/api?type=waving&color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d&height=280&section=header&text=TRAN%20VAN%20PHUC&fontSize=64&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Full-Stack%20Web%20Developer%20%7C%20AI%20%26%20Backend%20Engineer&descAlignY=58&descSize=16&descFontColor=00f3ff&stroke=00f3ff&strokeWidth=1"
+  alt="TRAN VAN PHUC"
 />
 
 <br/>
@@ -64,7 +51,7 @@
     <td width="40%" align="center" valign="middle">
       <img src="./lanyard.svg?v=1" alt="Staff Architect ID Badge" width="100%">
     </td>
-    <td width="60%" align="center" valign="middle">
+    <td width="60%" media="(min-width: 400px)" align="center" valign="middle">
       <img src="./identity-card.svg?v=1" alt="Production Telemetry & Radar" width="100%">
     </td>
   </tr>
@@ -75,7 +62,10 @@
   <img src="./pipeline.svg?v=1" alt="Full-Stack" width="100%">
 </p>
 
+---
+
 <!-- ================= 7. GITHUB CONTRIBUTION SNAKE ================= -->
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/felix-phuctran/felix-phuctran/output/github-contribution-grid-snake.svg" alt="GitHub Contribution Snake" width="100%">
 </p>
@@ -258,10 +248,10 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=felix-phuctran&theme=tokyonight&hide_border=true&background=040711&stroke=00f3ff&ring=00ff9d&fire=00ff9d&currStreakNum=00f3ff" alt="GitHub Streak" width="49%" />
   &nbsp;
-  <img 
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=felix-phuctran&layout=compact&theme=tokyonight&hide_border=true&bg_color=040711&text_color=94a3b8&title_color=00ff9d" 
-  alt="Top Languages" 
-  width="48%" 
+  <img
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=felix-phuctran&layout=compact&theme=tokyonight"
+  alt="Top Languages"
+  width="48%"
 />
 </p>
 
