@@ -5,27 +5,11 @@
 <!-- 01 — HERO / BOOT SEQUENCE                                   -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<div align="center">
-
 <img
   width="100%"
   src="https://capsule-render.vercel.app/api?type=waving&color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d&height=280&section=header&text=TRAN%20VAN%20PHUC&fontSize=64&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Full-Stack%20Web%20Developer%20%7C%20AI%20and%20Backend%20Engineer&descAlignY=58&descSize=16&descFontColor=00f3ff&stroke=00f3ff&strokeWidth=1"
   alt="TRAN VAN PHUC"
 />
-
-<picture>
-  <source media="(max-width: 600px)" srcset="./hero-01-mobile.webp">
-  <img
-    src="./hero-01.webp"
-    width="100%"
-    alt="Hero"
-  />
-</picture>
-
-</div>
-
-<br/>
-<br/>
 
 <!-- ================= 2. LIVE SYSTEM TELEMETRY PILLS ================= -->
 <p align="center">
@@ -46,9 +30,17 @@
 ---
 
 <!-- ================= 4. COMMAND CENTER HUD BANNER ================= -->
-<!-- <p align="center">
-  <img src="./identity-card.svg?v=1" alt="Developer Command Center HUD" width="100%">
-</p> -->
+<p align="center">
+  <!-- <img src="./identity-card.svg?v=1" alt="Developer Command Center HUD" width="100%"> -->
+  <picture>
+  <source media="(max-width: 600px)" srcset="./hero-01-mobile.webp">
+  <img src="./hero-01.webp" width="100%" alt="Ultra-cinematic 3D render of a mysterious elite hacker at a high-tech workstation with curved holographic displays, emerald code streams, and 3D architectural models" />
+</picture>
+
+</p>
+
+<br/>
+<br/>
 
 <!-- ================= 5. 3D LANYARD & PRODUCTION STATS ================= -->
 <table border="0" width="100%" >
