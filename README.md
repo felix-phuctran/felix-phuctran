@@ -5,19 +5,19 @@
 <!-- 01 — HERO / BOOT SEQUENCE                                   -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<picture>
-  <source media="(max-width: 600px)" srcset="./hero-01-mobile.webp">
-  <img src="./hero-01.webp" width="100%" alt="Ultra-cinematic 3D render of a mysterious elite hacker at a high-tech workstation with curved holographic displays, emerald code streams, and 3D architectural models" />
-</picture>
-
-<br/>
-<br/>
-
 <img
   width="100%"
   src="https://capsule-render.vercel.app/api?type=waving&color=0:020409,25:050f24,50:0a2540,75:0284c7,100:00ff9d&height=280&section=header&text=TRAN%20VAN%20PHUC&fontSize=64&fontColor=ffffff&fontAlignY=38&fontAlign=50&desc=Full-Stack%20Web%20Developer%20%7C%20AI%20and%20Backend%20Engineer&descAlignY=58&descSize=16&descFontColor=00f3ff&stroke=00f3ff&strokeWidth=1"
   alt="TRAN VAN PHUC"
 />
+
+<br/>
+<br/>
+
+<picture>
+  <source media="(max-width: 600px)" srcset="./hero-01-mobile.webp">
+  <img src="./hero-01.webp" width="100%" alt="Ultra-cinematic 3D render of a mysterious elite hacker at a high-tech workstation with curved holographic displays, emerald code streams, and 3D architectural models" />
+</picture>
 
 <br/>
 <br/>
@@ -248,7 +248,7 @@
 <p align="center">
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=felix-phuctran&theme=tokyonight&hide_border=true&background=040711&stroke=00f3ff&ring=00ff9d&fire=00ff9d&currStreakNum=00f3ff" alt="GitHub Streak" width="49%" />
   &nbsp;
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felix-phuctran&layout=compact&theme=tokyonight&hide_border=true&bg_color=040711&text_color=94a3b8&title_color=00ff9d" alt="Top Languages" width="48%" />
+  <!-- <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=felix-phuctran&layout=compact&theme=tokyonight&hide_border=true&bg_color=040711&text_color=94a3b8&title_color=00ff9d" alt="Top Languages" width="48%" /> -->
 </p>
 
 ### 🏆 Verified GitHub Achievements
