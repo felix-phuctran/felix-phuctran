@@ -172,6 +172,24 @@
       <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
     <td align="center" width="50%" valign="top">
+      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
+        <img src="https://raw.githubusercontent.com/felix-phuctran/E-store2/main/docs/ui-preview.png" width="100%" style="border-radius: 10px;" />
+      </a> -->
+      <img src="./Building_materials_system_image.jpg" width="100%" style="border-radius: 10px;" />
+      <br/><br/>
+      <b>🏢 Building Materials Management System</b><br/>
+      <sub>A comprehensive management system designed for building materials store owners. The platform allows complete control over inventory, invoice generation and export, accounting tasks, vehicle fleet management (trucks, excavators, forklifts...), and employee administration. Built with a clean interface and efficient database architecture to streamline daily store operations.</sub>
+      <br/><br/>
+      <code>React</code> • <code>NestJS</code> • <code>Docker</code> • <code>REST API</code> • <code>PostgreSQL</code>  • <code>Redis</code>
+      <br/><br/>
+      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
+        <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
+      </a> -->
+        <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
+    </td>
+  </tr>
+  <tr>
+    <td align="center" width="50%" valign="top">
       <!-- <a href="https://github.com/felix-phuctran/Ticket-Booking-App" target="_blank">
         <img src="https://raw.githubusercontent.com/felix-phuctran/Ticket-Booking-App/main/mobile/assets/promo1.png" width="100%" style="border-radius: 10px;" />
       </a> -->
@@ -189,24 +207,6 @@
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
       </a> -->
       <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
-    </td>
-  </tr>
-  <tr>
-    <td align="center" width="50%" valign="top">
-      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
-        <img src="https://raw.githubusercontent.com/felix-phuctran/E-store2/main/docs/ui-preview.png" width="100%" style="border-radius: 10px;" />
-      </a> -->
-      <img src="./Building_materials_system_image.jpg" width="100%" style="border-radius: 10px;" />
-      <br/><br/>
-      <b>🏢 Building Materials Management System</b><br/>
-      <sub>A comprehensive management system designed for building materials store owners. The platform allows complete control over inventory, invoice generation and export, accounting tasks, vehicle fleet management (trucks, excavators, forklifts...), and employee administration. Built with a clean interface and efficient database architecture to streamline daily store operations.</sub>
-      <br/><br/>
-      <code>React</code> • <code>NestJS</code> • <code>Docker</code> • <code>REST API</code> • <code>PostgreSQL</code>  • <code>Redis</code>
-      <br/><br/>
-      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
-        <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
-      </a> -->
-        <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
     <td align="center" width="50%" valign="top">
       <!-- <a href="https://github.com/felix-phuctran/Expense-Tracker" target="_blank">
