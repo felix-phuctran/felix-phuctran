@@ -156,20 +156,20 @@
   </tr>
   <tr>
     <td align="center" width="50%" valign="top">
-      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
-        <img src="https://raw.githubusercontent.com/felix-phuctran/E-store2/main/docs/ui-preview.png" width="100%" style="border-radius: 10px;" />
+      <!-- <a href="https://github.com/felix-phuctran/Expense-Tracker" target="_blank">
+        <img src="https://raw.githubusercontent.com/felix-phuctran/Hxni-Ecommerce-Store/main/profile_docs/assets/hxni_finance_mockup.png" width="100%" style="border-radius: 10px;" />
       </a> -->
-      <img src="./Building_materials_system_image.jpg" width="100%" style="border-radius: 10px;" />
+      <img src="./Bamboo_shoe_shop.jpg" width="100%" style="border-radius: 10px;" />
       <br/><br/>
-      <b>🏢 Building Materials Management System</b><br/>
-      <sub>A comprehensive management system designed for building materials store owners. The platform allows complete control over inventory, invoice generation and export, accounting tasks, vehicle fleet management (trucks, excavators, forklifts...), and employee administration. Built with a clean interface and efficient database architecture to streamline daily store operations.</sub>
+      <b>👟 Bamboo Shoe Shop</b><br/>
+      <sub>A full-stack online footwear store specializing in shoes and sandals. The application features an intelligent AI chatbot for product consultation and search, interactive product browsing, size selection, real-time inventory, and seamless online payment integration (Visa, MoMo, ZaloPay). Designed with a clean, modern UI and scalable architecture.</sub>
       <br/><br/>
-      <code>React</code> • <code>NestJS</code> • <code>Docker</code> • <code>REST API</code> • <code>PostgreSQL</code>  • <code>Redis</code>
+      <code>Next.js</code> • <code>React</code> • <code>PHP</code> • <code>FastAPI</code> • <code>MySQL</code> • <code>Docker</code> • <code>AWS S3</code> • <code>OpenAI</code>
       <br/><br/>
-      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
+      <!-- <a href="https://github.com/felix-phuctran/Expense-Tracker" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
       </a> -->
-        <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
+      <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
     <td align="center" width="50%" valign="top">
       <!-- <a href="https://github.com/felix-phuctran/Ticket-Booking-App" target="_blank">
@@ -193,20 +193,20 @@
   </tr>
   <tr>
     <td align="center" width="50%" valign="top">
-      <!-- <a href="https://github.com/felix-phuctran/Expense-Tracker" target="_blank">
-        <img src="https://raw.githubusercontent.com/felix-phuctran/Hxni-Ecommerce-Store/main/profile_docs/assets/hxni_finance_mockup.png" width="100%" style="border-radius: 10px;" />
+      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
+        <img src="https://raw.githubusercontent.com/felix-phuctran/E-store2/main/docs/ui-preview.png" width="100%" style="border-radius: 10px;" />
       </a> -->
-      <img src="./Bamboo_shoe_shop.jpg" width="100%" style="border-radius: 10px;" />
+      <img src="./Building_materials_system_image.jpg" width="100%" style="border-radius: 10px;" />
       <br/><br/>
-      <b>👟 Bamboo Shoe Shop</b><br/>
-      <sub>A full-stack online footwear store specializing in shoes and sandals. The application features an intelligent AI chatbot for product consultation and search, interactive product browsing, size selection, real-time inventory, and seamless online payment integration (Visa, MoMo, ZaloPay). Designed with a clean, modern UI and scalable architecture.</sub>
+      <b>🏢 Building Materials Management System</b><br/>
+      <sub>A comprehensive management system designed for building materials store owners. The platform allows complete control over inventory, invoice generation and export, accounting tasks, vehicle fleet management (trucks, excavators, forklifts...), and employee administration. Built with a clean interface and efficient database architecture to streamline daily store operations.</sub>
       <br/><br/>
-      <code>Next.js</code> • <code>React</code> • <code>PHP</code> • <code>FastAPI</code> • <code>MySQL</code> • <code>Docker</code> • <code>AWS S3</code> • <code>OpenAI</code>
+      <code>React</code> • <code>NestJS</code> • <code>Docker</code> • <code>REST API</code> • <code>PostgreSQL</code>  • <code>Redis</code>
       <br/><br/>
-      <!-- <a href="https://github.com/felix-phuctran/Expense-Tracker" target="_blank">
+      <!-- <a href="https://github.com/felix-phuctran/E-store2" target="_blank">
         <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
       </a> -->
-      <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
+        <img src="https://img.shields.io/badge/Repo-View%20Source-38bdf8?style=flat-square&logo=github&logoColor=white" />
     </td>
     <td align="center" width="50%" valign="top">
       <!-- <a href="https://github.com/felix-phuctran/Expense-Tracker" target="_blank">
